@@ -1,0 +1,758 @@
+[
+  {
+    "source": "/Users/gaojing/.catpaw/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 3634,
+    "sha256": "053db86639d7cfd3c313f6764a3f040eec2345d9736efbf57883e34e3420c834"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/catdesk-browser/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/catdesk-browser/SKILL.md",
+    "bytes": 19366,
+    "sha256": "5be3d9dcee097a388fc1f0498482aa3b6b3fc4c3ff28cb9aeca3539363e53075"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/catdesk-office/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/catdesk-office/SKILL.md",
+    "bytes": 16065,
+    "sha256": "5e0c9601682c47bd62cac189d3df961b93c046487cbc382a499788aa041228d3"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/catdesk-settings/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/catdesk-settings/SKILL.md",
+    "bytes": 14606,
+    "sha256": "481935fc81acf307f5cd33dd1fb72bf1639c881d0a0da5f8441cdd41b871bc85"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/docx/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/docx/SKILL.md",
+    "bytes": 20084,
+    "sha256": "cfbabd72b1aec7dfaad988fb6e5e16b27dc744b9a00cae15db9045e95f53903e"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/env-setup/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/env-setup/SKILL.md",
+    "bytes": 20839,
+    "sha256": "94776747ad1190523867a5e61aecb9f4f2b523789cf539b53028279be278f3c4"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/frontend-change-prompt-optimizer/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/frontend-change-prompt-optimizer/SKILL.md",
+    "bytes": 11758,
+    "sha256": "6c7bad9d72170407938861d48fe84fc041aa86968aef1b3a080eea06fc895edf"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/pdf/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/pdf/SKILL.md",
+    "bytes": 8072,
+    "sha256": "9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/pptx/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/pptx/SKILL.md",
+    "bytes": 9182,
+    "sha256": "e5b0df918cbe9d62508b3cf808d73899633f82fc19f6258a25ef9f0de7e62125"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skill-creator/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skill-creator/SKILL.md",
+    "bytes": 29013,
+    "sha256": "dfa1ea9e14a36ffd7c9e17b17253bc6d3885fa00d9c460f506102e0830bee62f"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skills-market/catpaw-skill-installer/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skills-market/catpaw-skill-installer/SKILL.md",
+    "bytes": 8827,
+    "sha256": "e01648d81dcf4314576b8b428de5d0797ea78bd40507383037d31da70feac25c"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skills-market/citadel-database/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skills-market/citadel-database/SKILL.md",
+    "bytes": 18038,
+    "sha256": "42c31948f0a0e5bcdfa5296a9919a561d20c7bf4daedda67d9cdbeddee101108"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skills-market/citadel/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skills-market/citadel/SKILL.md",
+    "bytes": 15131,
+    "sha256": "1cd40aa7cd093fadccfd36cf48460c16434dd109726b4680a4e505edd8050b3d"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skills-market/context7-github-search/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skills-market/context7-github-search/SKILL.md",
+    "bytes": 6528,
+    "sha256": "c57f9708b6443c0111faf848483c4d2e9d277a63cbb82ed41fdf73be8ee66607"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skills-market/drawio-generator/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skills-market/drawio-generator/SKILL.md",
+    "bytes": 7370,
+    "sha256": "47c0dd8e7c05e6d74a05e56bd5894e68f7b0df44ed544c9a76ddcd5044139188"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/skills-market/mbooklm/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/skills-market/mbooklm/SKILL.md",
+    "bytes": 36396,
+    "sha256": "fe49ed81017e9e76f93f36383512aa941829593e256285308b94935a1e59837b"
+  },
+  {
+    "source": "/Users/gaojing/.catpaw/skills/xlsx/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/xlsx/SKILL.md",
+    "bytes": 11463,
+    "sha256": "dd316db7785a6be12966c2a2d848931fbf5f518b3cdb0a66fa62ee835ead1cfc"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/access/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/access/SKILL.md",
+    "bytes": 4357,
+    "sha256": "4fc3da872e033c37576a904b15a1bcac6b1ce6c7bc43f1f96abd7cad4855ac7a"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/configure/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/configure/SKILL.md",
+    "bytes": 4324,
+    "sha256": "9364d7895d6f38b917a711128e7b391884fb8b8d69a62c7d72a81e95b6e2b948"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/access/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/access/SKILL.md",
+    "bytes": 4754,
+    "sha256": "ac994a86aab3a2724651a13a62ee9deae985196c8687a33bb79c4b7898aa5be7"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/configure/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/configure/SKILL.md",
+    "bytes": 3546,
+    "sha256": "3afdc7e9faa36aa0ba9813dce68509c45014a75b316d366ba44c46ebd8b098aa"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/access/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/access/SKILL.md",
+    "bytes": 4280,
+    "sha256": "c499635ef8a9a68cb166bb737a7f4d0620154d1bc9e96934cb8b630fadf22c86"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/configure/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/configure/SKILL.md",
+    "bytes": 4024,
+    "sha256": "7a58fa4efd09dd8323894e0e505bc21de11e657994710a3c535f9f5072fe36b3"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/SKILL.md",
+    "bytes": 10856,
+    "sha256": "bd8789052f89e784b744a2104d6f3f1373526ebe9e0576a3a5f6f4c73633f66f"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
+    "bytes": 6028,
+    "sha256": "b06c7420be08ca1c7f6d75f7f4709fdb787624a2d363e2f8052216d8c780f85b"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/cardputer-buddy/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/cardputer-buddy/SKILL.md",
+    "bytes": 1887,
+    "sha256": "dae31d1459c8ee7b4a03d04bf55485f4ece04bdd4f5a2650ad39eb3d07d9be10"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/m5-onboard/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/m5-onboard/SKILL.md",
+    "bytes": 23913,
+    "sha256": "c6ba88fd06f59a3e902fead2bb863b6834f189672cfcc75248941c23ae39bd2d"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-command/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-command/SKILL.md",
+    "bytes": 1226,
+    "sha256": "d561981660827f3818b0daec456ae5b31894f68c22407d8c495a77b3105ba96d"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-skill/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-skill/SKILL.md",
+    "bytes": 2725,
+    "sha256": "87d90442621ace039aa3379805f99c3f95bf500e9f7b96f9e7876ac2dcf804f5"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/frontend-design/skills/frontend-design/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/frontend-design/skills/frontend-design/SKILL.md",
+    "bytes": 4274,
+    "sha256": "d39adf3a983de7dafc75991590d54f091755f7e4163d5a5ed085ecd719157184"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/hookify/skills/writing-rules/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/hookify/skills/writing-rules/SKILL.md",
+    "bytes": 8423,
+    "sha256": "2994b5d3152243b1a1cbf8358e9d7c18f290f31a23920647f31053c3efdf990d"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/SKILL.md",
+    "bytes": 19961,
+    "sha256": "f697e195d343520f3db551bd4fb44c5120504ee2c47a9cc2016cd57767f23403"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/SKILL.md",
+    "bytes": 19391,
+    "sha256": "d2fd94f0096506469ec855c581e48293d35480e58e6405b2bfcdba0486a0c218"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/SKILL.md",
+    "bytes": 12084,
+    "sha256": "088cd04be7f03ebbdfd24973cbcbf93c7a2e09117c4bba7b2b06bcc3e0a556f6"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcpb/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcpb/SKILL.md",
+    "bytes": 7867,
+    "sha256": "6bb90afd0415754e13f353ee5982d13857c14826edbcbdf5f1481fa5563cd56b"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/SKILL.md",
+    "bytes": 3824,
+    "sha256": "521a3d62211e5f47b65ed17b660e001b15cf8d88d058cbf31bc00e889bcb63cc"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/SKILL.md",
+    "bytes": 11168,
+    "sha256": "6a2826571320828cc6f8f21ccd8e6eefd2bced62000c8c5e43a712c12e2d83a1"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/SKILL.md",
+    "bytes": 19233,
+    "sha256": "c55ad02cfe4cbb2a947eea3b1ed5fa1871e722d627c3c6792c3ed87c10c4d7a8"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/SKILL.md",
+    "bytes": 16246,
+    "sha256": "f47e2d42f6360294216a859ae0c30b93caafdd2b2e5ffc007489ba4ca447fa5c"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+    "bytes": 12519,
+    "sha256": "2bcc3b5e93924d7632218f494890f6e6f75a9248138bc97070bc62aea942dd49"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+    "bytes": 12097,
+    "sha256": "028b955244b937ebc1a5c268a12776b8ceae4cbfb60928fbca927227f4c8851d"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+    "bytes": 13796,
+    "sha256": "a2dbc1e5502aacb360d0ca74732cdd7be4f6a12a49edf4f2ade4134fbc026247"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/skill-development/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/skill-development/SKILL.md",
+    "bytes": 22825,
+    "sha256": "d51b4e20043b13e462aa86c47ea82d43e216eb292871538127f4b12a54e4944f"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/skills/session-report/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/skills/session-report/SKILL.md",
+    "bytes": 3149,
+    "sha256": "ef0fbc4259a41b7fd61b517fb1c9a95f02b83ea3c79ba0b3afbeee4942570397"
+  },
+  {
+    "source": "/Users/gaojing/.claude/plugins/marketplaces/claude-plugins-official/plugins/skill-creator/skills/skill-creator/SKILL.md",
+    "backup_path": "skills/.claude/plugins/marketplaces/claude-plugins-official/plugins/skill-creator/skills/skill-creator/SKILL.md",
+    "bytes": 33168,
+    "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
+  },
+  {
+    "source": "/Users/gaojing/.claude/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.claude/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 3634,
+    "sha256": "053db86639d7cfd3c313f6764a3f040eec2345d9736efbf57883e34e3420c834"
+  },
+  {
+    "source": "/Users/gaojing/.claude/skills/ba-seed-generator/SKILL.md",
+    "backup_path": "skills/.claude/skills/ba-seed-generator/SKILL.md",
+    "bytes": 10367,
+    "sha256": "ca65a22c6eee1ad524908af41f5b8e87abfbd1120870ce0e7592a2518d9650d6"
+  },
+  {
+    "source": "/Users/gaojing/.claude/skills/python-exercise-log/SKILL.md",
+    "backup_path": "skills/.claude/skills/python-exercise-log/SKILL.md",
+    "bytes": 1741,
+    "sha256": "e373755404d67052bc4a7ff320cb8b6ae01991ff4387898ae2771efaa2688184"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/.system/imagegen/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/imagegen/SKILL.md",
+    "bytes": 24003,
+    "sha256": "59981d23519222bcecf1be48bb37730bbc50539ceb0e35ad09fcef98a3df19d3"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/.system/openai-docs/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/openai-docs/SKILL.md",
+    "bytes": 7315,
+    "sha256": "1ee3c911a5c615c4f508e5611cb6e38548aba5ea12efb0c3e8838614cc6347b9"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/.system/plugin-creator/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/plugin-creator/SKILL.md",
+    "bytes": 7834,
+    "sha256": "237ad1b3d2bfd31292a10201966e1635e047f1839ef37a0bbd5c4e5fd650e531"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/.system/skill-creator/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/skill-creator/SKILL.md",
+    "bytes": 22047,
+    "sha256": "da44c88f6b3845a8fa8c60792ec9a722110a55a9793c279757b48fefb11f819c"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/.system/skill-installer/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/skill-installer/SKILL.md",
+    "bytes": 3366,
+    "sha256": "09df0ea7921f63d51befae9fc8f71daece5ef49d7b96e35fff8b18d15d6afda7"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/openclaw-install-assistant/SKILL.md",
+    "backup_path": "skills/.codex/skills/openclaw-install-assistant/SKILL.md",
+    "bytes": 21369,
+    "sha256": "8e0ab4e3eaa074f547767ba554dfa9da602e7cfbb3866ace0bdf93b8f1d7127c"
+  },
+  {
+    "source": "/Users/gaojing/.codex/skills/ui-ux-pro-max/SKILL.md",
+    "backup_path": "skills/.codex/skills/ui-ux-pro-max/SKILL.md",
+    "bytes": 44776,
+    "sha256": "9bd26c52dfd10dfd613dd3cc85df217dc25a172e380bde41fdfa6fedda288b2a"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/create-agent/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/create-agent/SKILL.md",
+    "bytes": 6893,
+    "sha256": "56d536fc688a1208f961ff4b4330c35c171562dc2a3f42a1bc54d294a71085b9"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/init-harness/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/init-harness/SKILL.md",
+    "bytes": 5356,
+    "sha256": "07948cb4e6e9b475e0cfa853625f4db349d1d80650df05e36990aef40ef3fc05"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/SKILL.md",
+    "bytes": 17510,
+    "sha256": "90d6f47fbd58bd56e6b5699100fb2dfc19a58b2f1208fc8329002be264e4eac6"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-approval/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-approval/SKILL.md",
+    "bytes": 1355,
+    "sha256": "e0047ca33b28e0398dea42c107723c45027937fdf237bb82893a0d2ec06c0e68"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-attendance/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-attendance/SKILL.md",
+    "bytes": 1620,
+    "sha256": "a0ea5f3fa176496dda31d912f7e55ad7cfed5243b30567d16e7f9dc96eebbe8b"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-base/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-base/SKILL.md",
+    "bytes": 34529,
+    "sha256": "5c34c51452ead14d2587a01887c9b4e210e964d2ebaa08f651e9709891eeea7d"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-calendar/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-calendar/SKILL.md",
+    "bytes": 11121,
+    "sha256": "f03745613de0bc32681ca31700a6b49450224a28814b9208125ca336b987570a"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-contact/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-contact/SKILL.md",
+    "bytes": 1053,
+    "sha256": "807a24a43285836f4d3142d107fe90c61f495a7b402dd2d6ca38cc577a602f03"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-doc/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-doc/SKILL.md",
+    "bytes": 11339,
+    "sha256": "2f233bdb504a59bcc1680f08c388b4471bc4f5cf8852ad042a8d785b4e24bfeb"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-drive/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-drive/SKILL.md",
+    "bytes": 16034,
+    "sha256": "e3d85422d9df9d0f798deb80eea55f6d0b61f571b24976d59026b48361427ba3"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-event/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-event/SKILL.md",
+    "bytes": 995,
+    "sha256": "4f902739eaad942ffc6de8c1483620cc6f2eee05ea0ff62fe6c6e56d3a9f64e6"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-im/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-im/SKILL.md",
+    "bytes": 9782,
+    "sha256": "51ce467c6b17999c1f8d6699a7bbb0fca44955c082723f8557728e81fd998f24"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-mail/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-mail/SKILL.md",
+    "bytes": 31274,
+    "sha256": "deb86737e24df4eaa2f6833259f59dcc70e05362fbd08dd8bc54db6d0b538cd7"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-minutes/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-minutes/SKILL.md",
+    "bytes": 6845,
+    "sha256": "0d1ee5164d90c781db5350712f39717b50901d7c55a2c1a3068df645f38e98e6"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-openapi-explorer/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-openapi-explorer/SKILL.md",
+    "bytes": 4927,
+    "sha256": "ae89debc3f807f9947831b4525e1c118bc14544877c14c14aaa47298b1e863b4"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-shared/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-shared/SKILL.md",
+    "bytes": 6424,
+    "sha256": "30bc6474202f4552e85767db0fdb7ce2632776bc5704a2ca980f4b8869d480de"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-sheets/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-sheets/SKILL.md",
+    "bytes": 13117,
+    "sha256": "d89539cad74354b8feb022866e23c13bbf5dca849b554b6a87b03e4793a887cf"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-skill-maker/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-skill-maker/SKILL.md",
+    "bytes": 2681,
+    "sha256": "5ab0b8ebb19d4a4bd39603f5917d0ffb8df73cc52929b0ff04c5d4ebfab24c87"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-slides/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-slides/SKILL.md",
+    "bytes": 21212,
+    "sha256": "1f272dbf6e00ee41dbb1766856dc7eaea7837be17f014577afc4f4ffba98d3f9"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-task/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-task/SKILL.md",
+    "bytes": 9439,
+    "sha256": "b9b5fc624c19ff8432a8784325e19af71c14dc11703f960a71fe7c09713bad01"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-vc/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-vc/SKILL.md",
+    "bytes": 8670,
+    "sha256": "d0e548a68ac859974a2ed63e781585d02b1c522aef713d0fffa1055052af21b2"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/SKILL.md",
+    "bytes": 13530,
+    "sha256": "081dfaacfa849f272a707522f944a74b41f5d75308c54c8e1d41e9838b69c445"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-whiteboard/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-whiteboard/SKILL.md",
+    "bytes": 9034,
+    "sha256": "fa4ad6d3c8c63061422bd64c3d602320978ba3db7c559927875e967a2b6cbcb0"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-wiki/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-wiki/SKILL.md",
+    "bytes": 5260,
+    "sha256": "46e39f62abf738f63db2e46f40e78c242623f35a3f8662597c55112ab8d08442"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-workflow-meeting-summary/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-workflow-meeting-summary/SKILL.md",
+    "bytes": 4177,
+    "sha256": "22df173003fd7e9ce9c0537fc4bfaeb830c07e7ad0b241420cc68b9ad617e830"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/lark-tools/cli-skills/lark-workflow-standup-report/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/lark-tools/cli-skills/lark-workflow-standup-report/SKILL.md",
+    "bytes": 4436,
+    "sha256": "21dd0425d499928d09b01f8dffcc45b853fd5ef893dcca3fa938ee8d3052a20b"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/llm-call/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/llm-call/SKILL.md",
+    "bytes": 1835,
+    "sha256": "b43519ff6bed7b230a9a5d19ddcc03dc76ed4031b473a79a071da34bc978351c"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/mavis-browser/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/mavis-browser/SKILL.md",
+    "bytes": 12118,
+    "sha256": "bb41bff74a3624fe9ec0ba74c21a8c3179c2cf33b7ee0f9654a054e7bcbe8362"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/mavis/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/mavis/SKILL.md",
+    "bytes": 5653,
+    "sha256": "90953255f6d3e9e1e08e1c9f6f1729681ae5dbbef7df7edf78a794b8ff1d3c5f"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/mcp-cli/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/mcp-cli/SKILL.md",
+    "bytes": 4784,
+    "sha256": "cb8c6c2187d746bfd02fc8a967c45ae546e9925a337c88dac87c0ddb57bd2b1a"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/mcp-onboarding/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/mcp-onboarding/SKILL.md",
+    "bytes": 6140,
+    "sha256": "6fb847416e5836faa3db6c1eb89564290f6de073a695a295786a68a62e8a8c7f"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/minimax-docx/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/minimax-docx/SKILL.md",
+    "bytes": 11452,
+    "sha256": "15a9a5a83c6af9d68e649fee6982a2e981247b05ca1e68ebe1d08310b32f905d"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/minimax-pdf/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/minimax-pdf/SKILL.md",
+    "bytes": 26849,
+    "sha256": "8b05e46ddd6a41a850f16abfb0f2a0b938c9aac1c384abab419ca1cff5cb1795"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/minimax-pptx/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/minimax-pptx/SKILL.md",
+    "bytes": 10442,
+    "sha256": "060e5f65d6b5dbe22ceb6b48b942fb6237992303c6efb46ac542ade3bf4586e5"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/minimax-xlsx/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/minimax-xlsx/SKILL.md",
+    "bytes": 25064,
+    "sha256": "c5f9ab2f39292fba8bf797011357fec6f19377c82633f2edc642940324e8ad0a"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/plan-mode/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/plan-mode/SKILL.md",
+    "bytes": 7611,
+    "sha256": "accc2a69cedeb65699b89c1ecb4fc032ace2743fbf66447d936329b24f255397"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/skill-creator/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/skill-creator/SKILL.md",
+    "bytes": 6686,
+    "sha256": "66d17dff8a2f8939eb9560b8a09a43bd8291ee38f727be91c49db26eb00b6e60"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/skill-evolution/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/skill-evolution/SKILL.md",
+    "bytes": 3882,
+    "sha256": "b632f2ef8e5e0010d99e9eea222c2eb55c9049adfd1cdf99d52e9707c4e6a800"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/skill-refiner/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/skill-refiner/SKILL.md",
+    "bytes": 5226,
+    "sha256": "d63504578a402841bebb762d3fbf335399bfac0b8197b47a5a9e940868a64e1a"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/worktree-management/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/worktree-management/SKILL.md",
+    "bytes": 5176,
+    "sha256": "7a78d25913df738ef101a33be50d353b06355b84cd1a692b89bad2c9027ebb54"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.builtin-skills/x-link-reader/SKILL.md",
+    "backup_path": "skills/.mavis/.builtin-skills/x-link-reader/SKILL.md",
+    "bytes": 3341,
+    "sha256": "93b7aa820fd2b6e8f9639955fc4e9b10ac3a8281c2da79a868336e821e3d1d9a"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/.internal-skills/skill-evolve-nightly/SKILL.md",
+    "backup_path": "skills/.mavis/.internal-skills/skill-evolve-nightly/SKILL.md",
+    "bytes": 14967,
+    "sha256": "09dacaae6d0a5b5b99661d084fe5add1ff9390fe2c9986f3b591d19423b09614"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/agents/mavis/.builtin-skills/mavis-doctor/SKILL.md",
+    "backup_path": "skills/.mavis/agents/mavis/.builtin-skills/mavis-doctor/SKILL.md",
+    "bytes": 4485,
+    "sha256": "310ae9aa35194fa479990e6079dc3148de83c19518b2092794513838937a8106"
+  },
+  {
+    "source": "/Users/gaojing/.mavis/agents/mavis/.builtin-skills/mavis-team/SKILL.md",
+    "backup_path": "skills/.mavis/agents/mavis/.builtin-skills/mavis-team/SKILL.md",
+    "bytes": 14394,
+    "sha256": "8ef8b1083e8715012de6748423b751d9c4859726b9812271547dedf21fa38cdb"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/catpaw_desk/.catpaw/skills/skills-market/citadel-database/SKILL.md",
+    "backup_path": "skills/Desktop/catpaw_desk/.catpaw/skills/skills-market/citadel-database/SKILL.md",
+    "bytes": 18038,
+    "sha256": "42c31948f0a0e5bcdfa5296a9919a561d20c7bf4daedda67d9cdbeddee101108"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/catpaw_desk/.catpaw/skills/skills-market/citadel/SKILL.md",
+    "backup_path": "skills/Desktop/catpaw_desk/.catpaw/skills/skills-market/citadel/SKILL.md",
+    "bytes": 37977,
+    "sha256": "e7a1d8bf2240ec14661cb181398a4fa289e73ba50ee6004913d41375df459c8c"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/cc/.catpaw/skills/resume-interview-coach/SKILL.md",
+    "backup_path": "skills/Desktop/cc/.catpaw/skills/resume-interview-coach/SKILL.md",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/cc/.catpaw/skills/sandbox-script-builder/SKILL.md",
+    "backup_path": "skills/Desktop/cc/.catpaw/skills/sandbox-script-builder/SKILL.md",
+    "bytes": 25938,
+    "sha256": "2d2fab21a123aca37f8689c1f295e9504ae0d398c43c54169aee3a3479d6f131"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/cc/.catpaw/skills/wbs-task-breakdown/SKILL.md",
+    "backup_path": "skills/Desktop/cc/.catpaw/skills/wbs-task-breakdown/SKILL.md",
+    "bytes": 7835,
+    "sha256": "c93a886d199c97c1397429e567583d64080083884007f8b1b0676c48f51e9426"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/.catpaw/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/Desktop/chat/.catpaw/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 3634,
+    "sha256": "053db86639d7cfd3c313f6764a3f040eec2345d9736efbf57883e34e3420c834"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/.catpaw/skills/python-learning-explainer/SKILL.md",
+    "backup_path": "skills/Desktop/chat/.catpaw/skills/python-learning-explainer/SKILL.md",
+    "bytes": 6408,
+    "sha256": "2c7d3def48bfd17ce85719ff4ea77c7701c6f86c540f9f32ce6681a05ece9ec6"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/.catpaw/skills/researching-github-projects/SKILL.md",
+    "backup_path": "skills/Desktop/chat/.catpaw/skills/researching-github-projects/SKILL.md",
+    "bytes": 10212,
+    "sha256": "7cf4883ef55d22861fae7a4e7358ed5852f51c3fb170fc513657cec9955bdfc6"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/.catpaw/skills/resume-backend-project-optimizer/SKILL.md",
+    "backup_path": "skills/Desktop/chat/.catpaw/skills/resume-backend-project-optimizer/SKILL.md",
+    "bytes": 7586,
+    "sha256": "10c2982e8f59c53ee472401018fb13e9f35b3f400063429e9035b1cdb3dac363"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/.catpaw/skills/resume-interview-coach/SKILL.md",
+    "backup_path": "skills/Desktop/chat/.catpaw/skills/resume-interview-coach/SKILL.md",
+    "bytes": 2879,
+    "sha256": "7b3fe7bffbfbfb3bff0faca3b8a3758735533959129df522491f639110a68068"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/docx/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/docx/SKILL.md",
+    "bytes": 15837,
+    "sha256": "557946c915a718beff07b5291a7c67d3718368b0e7214c569965bfc8ef251873"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/pdf/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/pdf/SKILL.md",
+    "bytes": 16250,
+    "sha256": "86897a7a0d95db07126cf9d1d22202b76dfd29a60128812ee92533a8161c30ce"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/pptx/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/pptx/SKILL.md",
+    "bytes": 21781,
+    "sha256": "e4876f6f9c79666852ef26f8abac48be5bd5f938bfa8f6ede1d516eb3f279a55"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/ride-hailing-ba-skill/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/ride-hailing-ba-skill/SKILL.md",
+    "bytes": 18872,
+    "sha256": "a3847d3c3e5178167173b24afc1d27922af1632a1711665be12715b4dc8e774c"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/summarize/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/summarize/SKILL.md",
+    "bytes": 1425,
+    "sha256": "e7cdf499cee3e4ffefdbdca842b4716796cdd983b1f11e1314f295895eeb8161"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/video-frames/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/video-frames/SKILL.md",
+    "bytes": 964,
+    "sha256": "f5cb2b9e7755b990bd4c8b75799a0d915d9c20a02ae592877586ccbdbffdc364"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/chat/ba-0xx_example/skills/xlsx/SKILL.md",
+    "backup_path": "skills/Desktop/chat/ba-0xx_example/skills/xlsx/SKILL.md",
+    "bytes": 11240,
+    "sha256": "a4997a6b55e7748328bb220c781b929af8be5aa17b40027720eaf5e85be67105"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/meituan/.catpaw/skills/ba-eval-data-auditor/SKILL.md",
+    "backup_path": "skills/Desktop/meituan/.catpaw/skills/ba-eval-data-auditor/SKILL.md",
+    "bytes": 11101,
+    "sha256": "009c5772560825fb0aa76ee6849a8066fd204aa2060b92d67de4d1d88ffe9cc6"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/meituan/.catpaw/skills/ba-question-generator/SKILL.md",
+    "backup_path": "skills/Desktop/meituan/.catpaw/skills/ba-question-generator/SKILL.md",
+    "bytes": 9017,
+    "sha256": "f29ba57547d8fadf0af0f6d6dd20858ef136c2b4165dd2d2287b077fa87e7f73"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/meituan/.catpaw/skills/ba-seed-generator/SKILL.md",
+    "backup_path": "skills/Desktop/meituan/.catpaw/skills/ba-seed-generator/SKILL.md",
+    "bytes": 10367,
+    "sha256": "ca65a22c6eee1ad524908af41f5b8e87abfbd1120870ce0e7592a2518d9650d6"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/meituan/.catpaw/skills/rubrics-alignment-checker/SKILL.md",
+    "backup_path": "skills/Desktop/meituan/.catpaw/skills/rubrics-alignment-checker/SKILL.md",
+    "bytes": 7788,
+    "sha256": "7dab70be90cdb872e6dabf767e8f60d2b7cf0b9fbc67fe58aca9fcc1d1dd4ba7"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/meituan/.catpaw/skills/rubrics-alignment-checker/model-eval-qc/SKILL.md",
+    "backup_path": "skills/Desktop/meituan/.catpaw/skills/rubrics-alignment-checker/model-eval-qc/SKILL.md",
+    "bytes": 8588,
+    "sha256": "07eb5b510334680c637b72f7a236d099bd47b62dea4e2ee606c4228ee1a12325"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/meituan/.catpaw/skills/synthetic-data-builder/SKILL.md",
+    "backup_path": "skills/Desktop/meituan/.catpaw/skills/synthetic-data-builder/SKILL.md",
+    "bytes": 12506,
+    "sha256": "651c1d6f8a8a4d14485d97022b65966b81629357cf1050aeb6b22cf620add83e"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/我的文档/best-skill-creator-zh/SKILL.md",
+    "backup_path": "skills/Desktop/我的文档/best-skill-creator-zh/SKILL.md",
+    "bytes": 9211,
+    "sha256": "f323d5b394180353fca794f43bbf811718df9a793db25fdc993d1d5b6877a1e0"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/我的文档/best-skill-creator/SKILL.md",
+    "backup_path": "skills/Desktop/我的文档/best-skill-creator/SKILL.md",
+    "bytes": 9627,
+    "sha256": "d704490141d98fa7aa43338d63d6b19a0ba450bc0c81e869310189112412732a"
+  },
+  {
+    "source": "/Users/gaojing/Desktop/我的文档/skill-creator-zh/SKILL.md",
+    "backup_path": "skills/Desktop/我的文档/skill-creator-zh/SKILL.md",
+    "bytes": 18757,
+    "sha256": "d34504a387ab36f68d712a249f036404cf4976804e53833615fca975a879d47b"
+  },
+  {
+    "source": "/Users/gaojing/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
+    "backup_path": "skills/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
+    "bytes": 2518,
+    "sha256": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7"
+  }
+]
