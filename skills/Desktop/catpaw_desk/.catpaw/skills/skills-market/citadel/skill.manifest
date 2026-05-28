@@ -1,0 +1,15 @@
+skill-manifest-version: 1
+skill-id: 1038eba7a6b335e3b66adfc240f95a0dbad0a30f64ecd91f8b7b32c9fe12201e
+
+files:
+  e7a1d8bf2240ec14661cb181398a4fa289e73ba50ee6004913d41375df459c8c  SKILL.md
+  37d5d278ab9821f18e00ffe55b5a27cc7abc8d7fce8398b54d195d4a1a9721b8  references/cli-reference.md
+  d9fd4b4cad6e2f5cbedf32713845280274583f6ef0eed1fa9f6d8bd6f547ea82  references/discussion-comment.md
+  fea9c9c7f9248f186acf17902cb85904d41112dee6f4d0fa466f6c6852d55c3e  references/doc-insert.md
+  af9de02593fe2838a37d7bb8c8345bc22409a1d347329a38f1a20e356b1d966a  references/doc-summary.md
+  05215e9f400b7da92a0131c493e69e6c1e30d6281c9a24a042401dad4f900131  references/doc-syntax.md
+  ad0bc4066142e3d420836f18d0d1d3ce820445fead25472d2641d4220aff9907  references/doc-update.md
+  139b1311fb7042ca0854115c358e3d74e53ecf8e176683d2879a7c688664a3a8  references/doc-view.md
+  2cd7b8293497ffc9499871c269af5633ef00c799e022eb8cf587b654b8a31939  references/doc-xml-syntax.md
+  02a87b940f8b3e534d1373d79ebde989c7df4b663c2ee2647eef4055da605285  references/generate-drawio.md
+  b810f7626b49132b242d632ea06b8b1822320ff009a1ce6947060004211d3978  references/permission-management.md
