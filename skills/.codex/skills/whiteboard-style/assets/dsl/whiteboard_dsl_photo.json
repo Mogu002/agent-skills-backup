@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 32,
+      "width": 832,
+      "height": "fit-content",
+      "fillColor": "#FFFFFF",
+      "borderWidth": 1,
+      "borderColor": "#E5E6EB",
+      "borderRadius": 16,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "width": 768,
+          "height": 32,
+          "text": "评测平台的三个真实场景",
+          "fontSize": 22,
+          "textAlign": "center"
+        },
+        {
+          "type": "text",
+          "id": "sub",
+          "width": 768,
+          "height": 20,
+          "text": "算力底座 → 人工复核 → 线上运营，图片是信息主体，文字只做标注",
+          "fontSize": 12,
+          "textColor": "#86909C",
+          "textAlign": "center"
+        },
+        {
+          "type": "frame",
+          "id": "row",
+          "layout": "horizontal",
+          "gap": 24,
+          "padding": 0,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "card-1",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "width": 240,
+              "height": "fit-content",
+              "fillColor": "#FFFFFF",
+              "borderWidth": 1,
+              "borderColor": "#E0E0E0",
+              "borderRadius": 12,
+              "children": [
+                {
+                  "type": "image",
+                  "id": "img-1",
+                  "width": 240,
+                  "height": 160,
+                  "image": {
+                    "src": "TuFLbXa5yoK6wmxIjfjcGja6nGf"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "t-1",
+                  "width": 216,
+                  "height": 20,
+                  "text": "算力底座",
+                  "fontSize": 14
+                },
+                {
+                  "type": "text",
+                  "id": "d-1",
+                  "width": 216,
+                  "height": 16,
+                  "text": "批量评测跑在自有集群上",
+                  "fontSize": 11,
+                  "textColor": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "card-2",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "width": 240,
+              "height": "fit-content",
+              "fillColor": "#FFFFFF",
+              "borderWidth": 1,
+              "borderColor": "#E0E0E0",
+              "borderRadius": 12,
+              "children": [
+                {
+                  "type": "image",
+                  "id": "img-2",
+                  "width": 240,
+                  "height": 160,
+                  "image": {
+                    "src": "QkoUbMhhcoasZJxzceLcH7h4nYe"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "t-2",
+                  "width": 216,
+                  "height": 20,
+                  "text": "人工复核",
+                  "fontSize": 14
+                },
+                {
+                  "type": "text",
+                  "id": "d-2",
+                  "width": 216,
+                  "height": 16,
+                  "text": "争议用例两人对照口径",
+                  "fontSize": 11,
+                  "textColor": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "card-3",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "width": 240,
+              "height": "fit-content",
+              "fillColor": "#FFFFFF",
+              "borderWidth": 1,
+              "borderColor": "#E0E0E0",
+              "borderRadius": 12,
+              "children": [
+                {
+                  "type": "image",
+                  "id": "img-3",
+                  "width": 240,
+                  "height": 160,
+                  "image": {
+                    "src": "DaqfbgbZWozBaYx5qRDcfwENnk8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "t-3",
+                  "width": 216,
+                  "height": 20,
+                  "text": "线上运营",
+                  "fontSize": 14
+                },
+                {
+                  "type": "text",
+                  "id": "d-3",
+                  "width": 216,
+                  "height": 16,
+                  "text": "城市级流量夜间高峰",
+                  "fontSize": 11,
+                  "textColor": "#666666"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "note",
+          "width": 768,
+          "height": 18,
+          "text": "图片：3 张不同素材，均以 media token 上传到本画板，尺寸统一 240×160（3:2）",
+          "fontSize": 11,
+          "textColor": "#86909C"
+        }
+      ]
+    }
+  ]
+}

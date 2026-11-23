@@ -1,0 +1,121 @@
+{
+  "routing": [
+    {
+      "id": "direct-fields",
+      "query": "检查这条记录里“目标表链接”对应的 Base 字段是否符合“数据表设计”。",
+      "expected": "lark-base-schema-auditor"
+    },
+    {
+      "id": "indirect-types",
+      "query": "帮我核对样张表的字段类型，要求写在当前记录的 schema 字段里。",
+      "expected": "lark-base-schema-auditor"
+    },
+    {
+      "id": "english",
+      "query": "Compare the field types of the linked Lark Base table with the schema stored in this record.",
+      "expected": "lark-base-schema-auditor"
+    },
+    {
+      "id": "incomplete-but-trigger",
+      "query": "检查 Base 表结构和需求是不是一致。",
+      "expected": "lark-base-schema-auditor",
+      "constraint": "先触发，再索取来源 Base、链接字段、标准字段或记录定位信息"
+    },
+    {
+      "id": "modify-schema",
+      "query": "把这个 Base 的金额字段改成货币类型。",
+      "expected": "not-lark-base-schema-auditor",
+      "route": "lark-base"
+    },
+    {
+      "id": "record-values",
+      "query": "检查这张表每条记录的联系电话格式对不对。",
+      "expected": "not-lark-base-schema-auditor",
+      "route": "lark-base"
+    },
+    {
+      "id": "metadata-only",
+      "query": "帮我找出这个 Base 的 table_id 和所有 field_id。",
+      "expected": "not-lark-base-schema-auditor",
+      "route": "lark-base-reader"
+    },
+    {
+      "id": "generic-modeling",
+      "query": "设计一个客户管理数据表应该有哪些字段。",
+      "expected": "not-lark-base-schema-auditor"
+    }
+  ],
+  "behavior": [
+    {
+      "id": "view-first-row",
+      "query": "检查当前视图第一条记录，目标字段是 Base链接-副本，标准字段是数据表设计。",
+      "pass": [
+        "按视图顺序只读取第一条并报告 record_id",
+        "只投影两个来源字段",
+        "解析目标 URL 后读取完整目标字段列表",
+        "运行审计脚本"
+      ]
+    },
+    {
+      "id": "translated-names",
+      "query": "标准是中文字段名，目标表是对应英文名，检查字段类型。",
+      "pass": [
+        "建立明确的语义映射",
+        "不按顺序强配",
+        "映射只影响名称，不改变类型判定"
+      ]
+    },
+    {
+      "id": "specialized-number",
+      "query": "设计要求是货币、进度和评分，实际字段顶层 type 都是 number。",
+      "pass": [
+        "继续检查 style.type",
+        "不把 number/plain 判为货币、进度或评分"
+      ]
+    },
+    {
+      "id": "multiple-target-tables",
+      "query": "目标链接只到 Base 首页，里面有多张名称相近的数据表。",
+      "pass": [
+        "读取 base-block-list",
+        "无法唯一定位时询问",
+        "不合并多张表字段"
+      ]
+    },
+    {
+      "id": "options-default",
+      "query": "只检查字段和字段类型是否符合设计。",
+      "pass": [
+        "默认不启用选项检查",
+        "说明选项未检查"
+      ]
+    },
+    {
+      "id": "unknown-type",
+      "query": "设计中包含脚本不认识的字段类型。",
+      "pass": [
+        "返回 unsupported_requirement",
+        "不降级成文本",
+        "不声称通过"
+      ]
+    },
+    {
+      "id": "auth-failure",
+      "query": "读取字段时报 missing_scopes。",
+      "pass": [
+        "停止读取",
+        "转 lark-shared",
+        "不静默切换 bot"
+      ]
+    },
+    {
+      "id": "repair-request",
+      "query": "检查完顺手把不对的字段改掉。",
+      "pass": [
+        "先完成只读审计并报告差异",
+        "将修改阶段转交 lark-base",
+        "不由审计脚本写入"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>门店 3 客流与转化最优，门店 4 客单价高但转化弱</title>
+<script src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: #ffffff; color: #1f2937; }
+  #wrap { width: 100%; padding: 14px 18px 16px; }
+  .hd { padding: 2px 2px 10px; border-bottom: 1px solid #eef1f5; margin-bottom: 6px; }
+  .hd h1 { margin: 0; font-size: 17px; font-weight: 650; color: #111827; letter-spacing: .2px; }
+  .hd p { margin: 6px 0 0; font-size: 12.5px; color: #6b7280; line-height: 1.5; }
+  #chart { width: 100%; height: 430px; }
+  #st { min-height: 20px; font-size: 13px; color: #6b7280; text-align: center; padding: 6px 12px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="hd"><h1>门店 3 客流与转化最优，门店 4 客单价高但转化弱</h1><p>平行坐标图：4 家门店在客流 / 客单价 / 转化率 / 复购率四个维度上的轮廓</p></div>
+  <div id="chart"></div>
+  <div id="st" role="status">加载中...</div>
+</div>
+<script>
+(function boot() {
+  var st = document.getElementById("st") || document.getElementById("status");
+  function setStatus(text) { if (st) st.textContent = text || ""; }
+
+  if (typeof echarts === "undefined") {
+    setStatus("图表库加载中...");
+    return setTimeout(boot, 150);
+  }
+
+  var chart = echarts.init(document.getElementById("chart"));
+  try {
+      var C = { blue: "#2563eb", green: "#10b981", amber: "#f59e0b", red: "#ef4444", purple: "#8b5cf6", teal: "#14b8a6", slate: "#64748b" };
+
+      var option = {
+        animation: false,
+        tooltip: { trigger: "item" },
+        parallelAxis: [
+          { dim: 0, name: "客流", min: 600, max: 1700, nameTextStyle: { color: "#374151" } },
+          { dim: 1, name: "客单价", min: 60, max: 150, nameTextStyle: { color: "#374151" } },
+          { dim: 2, name: "转化率%", min: 8, max: 26, nameTextStyle: { color: "#374151" } },
+          { dim: 3, name: "复购率%", min: 20, max: 40, nameTextStyle: { color: "#374151" } }
+        ],
+        parallel: { left: 62, right: 56, top: 74, bottom: 56, parallelAxisDefault: { type: "value", nameTextStyle: { color: "#374151" }, axisLabel: { color: "#6b7280" }, splitLine: { lineStyle: { color: "#eef1f5" } } } },
+        series: [
+          { name: "门店 1", type: "parallel", lineStyle: { width: 2, opacity: .55, color: C.blue }, data: [[1200, 86, 18, 32]] },
+          { name: "门店 2", type: "parallel", lineStyle: { width: 2, opacity: .55, color: C.green }, data: [[980, 112, 14, 28]] },
+          { name: "门店 3", type: "parallel", lineStyle: { width: 3, opacity: .95, color: C.amber }, data: [[1500, 75, 22, 36]] },
+          { name: "门店 4", type: "parallel", lineStyle: { width: 2, opacity: .55, color: C.purple }, data: [[760, 134, 11, 25]] }
+        ],
+        legend: { bottom: 4, itemWidth: 12, itemHeight: 8, textStyle: { color: "#4b5563", fontSize: 12 } }
+      };
+    chart.setOption(option, true);
+    setStatus("");
+  } catch (err) {
+    setStatus("图表渲染失败: " + (err && err.message ? err.message : String(err)));
+    console.error(err);
+  }
+
+  window.addEventListener("resize", function () { chart.resize(); });
+})();
+</script>
+</body>
+</html>

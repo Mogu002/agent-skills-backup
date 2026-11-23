@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "width": 1080,
+      "height": 400,
+      "layout": "horizontal",
+      "gap": 40,
+      "padding": 40,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "fillColor": "#FBFCFD",
+      "borderColor": "#DEE0E3",
+      "borderWidth": 1,
+      "borderRadius": 16,
+      "children": [
+        {
+          "type": "frame",
+          "id": "col1",
+          "width": 280,
+          "height": "fit-content",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#F0F4FC",
+          "borderColor": "#3370FF",
+          "borderWidth": 1,
+          "borderRadius": 12,
+          "children": [
+            { "type": "text", "id": "t1", "text": "① 输入", "fontSize": 14, "textColor": "#1F4BD8", "width": "fit-content", "height": "fit-content" },
+            { "type": "rect", "id": "model", "width": "fill-container", "height": 56, "text": "候选模型 v2.3", "fontSize": 13, "fillColor": "#FFFFFF", "borderColor": "#3370FF", "borderWidth": 1.5, "borderRadius": 8 },
+            { "type": "rect", "id": "cases", "width": "fill-container", "height": 56, "text": "用例集 cases-v3", "fontSize": 13, "fillColor": "#FFFFFF", "borderColor": "#3370FF", "borderWidth": 1.5, "borderRadius": 8 }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "col2",
+          "width": 280,
+          "height": "fit-content",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#DBF5F0",
+          "borderColor": "#14B8A6",
+          "borderWidth": 1,
+          "borderRadius": 12,
+          "children": [
+            { "type": "text", "id": "t2", "text": "② 执行", "fontSize": 14, "textColor": "#0F766E", "width": "fit-content", "height": "fit-content" },
+            { "type": "rect", "id": "sched", "width": "fill-container", "height": 56, "text": "任务调度与切片", "fontSize": 13, "fillColor": "#FFFFFF", "borderColor": "#14B8A6", "borderWidth": 1.5, "borderRadius": 8 },
+            { "type": "rect", "id": "sandbox", "width": "fill-container", "height": 56, "text": "工具沙箱与回放", "fontSize": 13, "fillColor": "#FFFFFF", "borderColor": "#14B8A6", "borderWidth": 1.5, "borderRadius": 8 }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "col3",
+          "width": 280,
+          "height": "fit-content",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#FEF1CE",
+          "borderColor": "#FF8800",
+          "borderWidth": 1,
+          "borderRadius": 12,
+          "children": [
+            { "type": "text", "id": "t3", "text": "③ 输出", "fontSize": 14, "textColor": "#9A5B00", "width": "fit-content", "height": "fit-content" },
+            { "type": "rect", "id": "score", "width": "fill-container", "height": 56, "text": "分项得分与硬伤", "fontSize": 13, "fillColor": "#FFFFFF", "borderColor": "#FF8800", "borderWidth": 1.5, "borderRadius": 8 },
+            { "type": "rect", "id": "report", "width": "fill-container", "height": 56, "text": "评测报告与建议", "fontSize": 13, "fillColor": "#FFFFFF", "borderColor": "#FF8800", "borderWidth": 1.5, "borderRadius": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "id": "e1",
+      "connector": { "from": "model", "to": "sched", "fromAnchor": "right", "toAnchor": "left", "lineShape": "rightAngle", "lineColor": "#BBBFC4", "lineWidth": 2, "endArrow": "triangle" }
+    },
+    {
+      "type": "connector",
+      "id": "e2",
+      "connector": { "from": "cases", "to": "sandbox", "fromAnchor": "right", "toAnchor": "left", "lineShape": "rightAngle", "lineColor": "#BBBFC4", "lineWidth": 2, "endArrow": "triangle" }
+    },
+    {
+      "type": "connector",
+      "id": "e3",
+      "connector": { "from": "sandbox", "to": "score", "fromAnchor": "right", "toAnchor": "left", "lineShape": "rightAngle", "lineColor": "#BBBFC4", "lineWidth": 2, "endArrow": "triangle", "label": "轨迹" }
+    },
+    {
+      "type": "connector",
+      "id": "e4",
+      "connector": { "from": "score", "to": "report", "fromAnchor": "bottom", "toAnchor": "top", "lineShape": "rightAngle", "lineColor": "#BBBFC4", "lineWidth": 2, "endArrow": "triangle" }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+classDiagram
+    class EvalTask {
+        +String taskId
+        +String modelName
+        +String mode
+        +run()
+    }
+    class TestCase {
+        +String caseId
+        +String dimension
+        +int difficulty
+        +validate()
+    }
+    class Trace {
+        +String traceId
+        +int stepCount
+        +int latencyMs
+        +replay()
+    }
+    class Score {
+        +float total
+        +bool hardFail
+        +String reason
+        +aggregate()
+    }
+    EvalTask "1" --> "*" TestCase : 加载
+    TestCase "1" --> "1" Trace : 产生
+    Trace "1" --> "1" Score : 判分

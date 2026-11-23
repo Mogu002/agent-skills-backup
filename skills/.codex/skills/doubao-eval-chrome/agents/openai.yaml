@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doubao Eval Chrome"
+  short_description: "Chrome 测试账号结构化取证，复用豆包人评格式并显式标记证据缺口"
+  default_prompt: "使用 $doubao-eval-chrome 读取已登录测试账号的产物，按 Query 取证并沿用豆包人评字段输出。"

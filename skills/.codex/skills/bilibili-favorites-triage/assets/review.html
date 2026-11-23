@@ -1,0 +1,124 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>@@NAME@@ · 收藏夹筛选</title>
+<style>
+:root{--bg:#f6f6f0;--paper:#fffefa;--ink:#242d28;--muted:#59675e;--line:#d8dfd5;--pine:#245340;--soft:#e7eee6;--mono:"SFMono-Regular",Consolas,monospace}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Inter","PingFang SC","Microsoft YaHei",sans-serif}main{max-width:1130px;margin:auto;padding:0 34px 48px}a{color:var(--pine);text-underline-offset:3px}button,input,select{font:inherit}button,select,summary{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid #a36722;outline-offset:2px}header{display:flex;justify-content:space-between;gap:10px;align-items:center;border-bottom:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:13px}header span:first-child{font-weight:700;color:var(--ink)}header time{font-family:var(--mono);font-size:12px}.head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:34px 0 24px}h1{margin:0;font-size:clamp(32px,5vw,53px);line-height:1.14;letter-spacing:-.055em}h1 small{font-size:.51em;letter-spacing:-.025em;color:var(--muted);font-weight:500;display:inline-block;margin-left:12px}.head p{color:var(--muted);margin:11px 0 0}.head a{white-space:nowrap;font-size:13px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.stat{background:var(--paper);border:1px solid var(--line);border-radius:9px;text-align:left;padding:12px 16px;color:var(--ink)}.stat[aria-pressed=true]{background:var(--pine);border-color:var(--pine);color:white}.stat strong{display:block;font:600 32px/1.15 var(--mono);margin-bottom:5px}.stat span{font-size:13px}.method{margin:18px 0 26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 2px;color:var(--muted);font-size:13px}.method summary{color:var(--pine);font-weight:600}.method p{margin:10px 0}.method ol{padding-left:23px}.method li{margin:5px 0}.nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0}.btn,select,input{border:1px solid var(--line);background:var(--paper);border-radius:6px;padding:7px 11px;color:var(--ink)}.btn[aria-pressed=true]{background:var(--soft);border-color:#7b9a83;color:var(--pine)}.nav input{flex:1;min-width:150px}.results-head{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--muted);font-size:13px;margin:16px 0 8px}.results-head button,.small{font-size:12px}.entries{background:var(--paper);border:1px solid var(--line);border-radius:10px;overflow:hidden}.entry{display:grid;grid-template-columns:42px minmax(0,1fr) 140px;gap:13px;padding:17px 20px;border-top:1px solid var(--line)}.entry:first-child{border-top:0}.num{font:12px/1.7 var(--mono);color:#758378;padding-top:2px}.labels{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:12px}.chip{border-radius:4px;padding:1px 6px;background:#eaf0e8;color:#2e5d43}.chip.tools{background:#e8edf4;color:#385573}.chip.review{background:#f7ecd5;color:#775620}.chip.skip,.chip.exists{background:#eeefeb;color:#5a625c}.entry h3{font-size:17px;line-height:1.5;margin:6px 0 3px;overflow-wrap:anywhere}.why{color:#404d43;font-size:14px;margin:0}.origin{font-size:12px;color:var(--muted);margin:6px 0 0}.origin a{margin-left:8px}.right{display:flex;gap:6px;align-items:flex-end;justify-content:center;flex-direction:column}.right a{font:12px var(--mono);text-decoration:none}.right .small{background:transparent;border:0;color:var(--muted);padding:4px}.tags{font-size:12px;color:var(--muted);margin-top:7px}.tags summary{width:max-content}.tags p{margin:4px 0}.paging{display:flex;align-items:center;gap:14px;justify-content:center;margin-top:22px;font-size:13px}.btn:disabled{opacity:.4;cursor:default}#notice{color:var(--pine)}.empty{padding:28px;color:var(--muted)}[hidden]{display:none!important}@media(max-width:740px){main{padding:0 13px 32px}.head{align-items:flex-start;flex-direction:column;margin:24px 0 18px}.stats{gap:4px}.stat{padding:9px 4px;text-align:center}.stat strong{font-size:23px}.stat span{font-size:11px}.entry{grid-template-columns:1fr;gap:2px;padding:13px}.num{font-size:10px}.right{align-items:center;justify-content:flex-start;flex-direction:row;gap:12px;margin-top:7px}.nav select,.nav button,.nav input{font-size:13px}.head p{font-size:13px}.results-head{align-items:flex-end}.entry h3{font-size:16px}}
+.review-player{margin:8px auto 14px;max-width:800px}.player-controls{display:flex;gap:16px;align-items:center;padding:6px 0}.review-player iframe{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:8px;background:#171b19}#humanReview{border:1px solid var(--line);border-radius:8px;padding:12px 16px}#humanReview label{display:grid;gap:4px;margin:5px 0 10px}#humanReason{box-sizing:border-box;width:100%;resize:vertical;font:inherit;padding:9px;border:1px solid var(--line);border-radius:6px}.sub-summary{background:#f1f5ef;border-left:3px solid #a6bda9;padding:7px 12px;margin:8px 0;color:#344b3b;font-size:13px}.sub-summary p{font-size:15px;line-height:1.65;margin:3px 0}.sub-summary a{font-size:12px}.watch-layout{display:grid;grid-template-columns:minmax(0,2.4fr) minmax(250px,1fr);gap:22px;align-items:start;margin-top:12px}.watch-layout .review-player{max-width:none;margin:0}.review-actions{min-width:0}.review-actions fieldset{min-width:0;margin:0}.review-actions input{width:100%;min-width:0}.review-actions textarea{min-height:8em}.review-actions #voteYes{background:var(--pine);color:white}.review-actions small{display:block}.review-actions #exportRow{border-top:1px solid var(--line);padding-top:12px}@media(max-width:780px){.watch-layout{grid-template-columns:1fr;gap:10px}.review-actions textarea{min-height:5em}}.age-filter{display:flex;align-items:center;gap:10px;margin-top:20px;font-size:14px;font-weight:600}.age-filter select{font-weight:400}.art-quick{padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:12px}.art-quick b{display:block;margin-bottom:5px}</style>
+<main>
+<header><span>个人知识库 / 来源筛选</span><time>@@DATE@@</time></header>
+<section class="head"><div><h1>@@NAME@@<small>收藏夹筛选</small></h1><p id="coverage"></p></div><a href="@@URL@@" target="_blank" rel="noopener">查看原收藏夹 ↗</a></section>
+<label class="age-filter"><input type="checkbox" id="declutter" checked>断舍离模式 · 只摄入收藏 365 天以内的视频</label><small id="declutterStatus"></small><label class="age-filter">发布时间 <select id="ageFilter"><option value="">全部时间</option><option value="0">0–30 天</option><option value="1">31–90 天</option><option value="2">91–180 天</option><option value="3">181–365 天</option><option value="4">超过 365 天</option></select></label><section class="method" id="deck"><button class="btn" id="reviewOpen" aria-expanded="false">逐条决定是否摄入</button> <span id="reviewCount"></span><div id="reviewPanel" hidden><p><select id="reviewScope" aria-label="复核范围"><option>低置信度</option><option>待核实</option><option>全部视频</option></select> <button class="btn" id="undoVote">撤销上一步</button></p><div id="card" style="touch-action:pan-y"></div><div class="watch-layout"><div id="playerSlot"></div><aside class="review-actions"><fieldset id="humanReview"><legend>人工评价（选填）</legend><div class="art-quick"><b>作品展示 · 快速决定</b><div><button type="button" class="btn" id="artYes">收藏为视觉参考</button> <button type="button" class="btn" id="artNo">作品展示 · 跳过</button></div></div><label>建议摄入类型<input id="humanType" list="typeChoices" placeholder="选择或输入，例如：工具卡"></label><datalist id="typeChoices"><option value="作品展示 · 视觉参考"><option value="方法笔记"><option value="实践案例"><option value="工具卡"><option value="概念解释"><option value="评测对比"><option value="补充已有页面"></datalist><label>决定理由<textarea id="humanReason" rows="3" placeholder="想保留哪段内容、补到哪一页？如果跳过，也可以写下原因。"></textarea></label></fieldset><p><button class="btn" id="voteNo">← 不摄入</button> <button class="btn" id="voteYes">摄入 →</button></p><small>可左右滑动卡片，或用方向键决定。进度保存在当前浏览器。</small><div id="exportSlot"></div></aside></div></div><div id="closedExport"><p id="exportRow"><button class="btn" id="exportVotes">导出已选摄入清单</button> <span role="status" id="saveState"></span></p></div></section><p><button class="btn" id="backup">导出完整决定</button> <label>导入完整决定 <input id="restore" type="file" accept=".json"></label> <span id="transfer" role="status"></span></p><div class="stats" id="stats" aria-label="按摄入建议筛选"></div>
+<p id="methodstats"></p>
+<div class="nav"><button type="button" class="btn" id="all">全部</button><button type="button" class="btn" id="pilot">前 5 条</button><input id="query" type="search" aria-label="搜索视频" placeholder="搜索标题、UP 主、标签或 BV 号"><select id="topic" aria-label="主题"><option value="">所有主题</option></select><select id="proof" aria-label="证据"><option value="">所有证据</option><option value="direct">有正文 / 库内依据</option><option value="meta">目录初筛</option><option value="summary">有字幕摘要</option><option value="missing">字幕未抓取到</option></select></div>
+<div class="results-head"><span id="summary" aria-live="polite"></span><div><span id="notice" role="status"></span> <button type="button" class="btn small" id="copyset">复制当前结果链接</button></div></div>
+<section class="entries" id="list" aria-label="筛选结果"></section><nav class="paging"><button type="button" id="prev" class="btn">上一页</button><span id="pn"></span><button type="button" id="next" class="btn">下一页</button></nav><noscript>请启用 JavaScript 查看审阅页。</noscript></main>
+<script type="application/json" id="data">@@ROWS@@</script><script>
+'use strict';
+const config=@@CONFIG@@,datasetId=config.dataset_id;
+const rows=JSON.parse(document.getElementById('data').textContent),by=id=>document.getElementById(id),labels=['优先摄入','工具线索','待核实','可跳过','已有记录'],tones=['','tools','review','skip','exists'];let mode='优先摄入',page=0,current=[],timer;
+function el(tag,txt,cls){const node=document.createElement(tag);if(txt!==null)node.textContent=txt;if(cls)node.className=cls;return node}
+function anchor(label,href){const a=el('a',label);a.href=href;a.target='_blank';a.rel='noopener';return a}
+function choose(label){mode=label;page=0;render()}
+function msg(s){by('notice').textContent=s;clearTimeout(timer);timer=setTimeout(()=>by('notice').textContent='',3000)}
+async function copy(text){try{await navigator.clipboard.writeText(text)}catch{const f=el('textarea',null);f.value=text;document.body.append(f);f.select();const ok=document.execCommand('copy');f.remove();if(!ok){window.prompt('复制链接',text);return}}msg('已复制 '+text.split('\n').length+' 条')}
+function subtitleBlock(r){
+ const box=el('section',null,'sub-summary');
+ box.append(el('strong',r.subStatus));
+ if(r.subSummary){box.append(el('p',r.subSummary));if(r.subPath)box.append(anchor('查看原字幕',r.subPath))}
+ return box;
+}
+function row(r){const a=el('article',null,'entry'),content=el('div',null),labelsBox=el('div',null,'labels');labelsBox.append(el('span',r.verdict,'chip '+tones[labels.indexOf(r.verdict)]),el('span',r.topic+' · '+r.form),el('span',r.conf+'置信'));const decision=decisions.get(r.bvid);if(decision)labelsBox.prepend(el('strong',category(r),'chip'));content.append(labelsBox,el('h3',r.title),subtitleBlock(r),el('p','筛选理由　'+r.why,'why'));if(decision?.note?.type||decision?.note?.reason)content.append(el('p','人工评价　'+[decision.note.type,decision.note.reason].filter(Boolean).join(' · '),'why'));const o=el('p',r.author+'　·　发布于 '+(r.published||'未知')+'　·　收藏于 '+(r.favorited||'未知')+'　·　'+r.evidence,'origin');for(const [txt,url] of r.links)o.append(anchor(txt,url));content.append(o);const d=el('details',null,'tags');d.append(el('summary','查看标签与分享 URL'),el('p','站内标签　'+(r.tags.join(' / ')||'未取得')),anchor(r.url,r.url));content.append(d);const right=el('div',null,'right'),btn=el('button','复制链接','small');btn.onclick=()=>copy(r.url);right.append(anchor(r.bvid+' ↗',r.url),btn);a.append(el('span','#'+String(r.n).padStart(3,'0'),'num'),content,right);return a}
+const shanghaiDate=new Intl.DateTimeFormat('en-CA',{timeZone:config.timezone,year:'numeric',month:'2-digit',day:'2-digit'});
+const declutter=by('declutter'),declutterKey='triage-declutter:'+datasetId;
+try{declutter.checked=(localStorage.getItem(declutterKey)??(config.declutter?'on':'off'))!=='off'}catch{}
+function eligible(r,today){return !declutter.checked||Boolean(r.favorited&&Date.parse(r.favorited+'T00:00:00Z')<=today&&today-Date.parse(r.favorited+'T00:00:00Z')<=365*86400000)}
+function ageMatches(r,today){
+ if(!eligible(r,today))return false;
+ const filter=by('ageFilter').value;
+ if(!filter)return true;
+ if(!r.published)return false;
+ const days=(today-Date.parse(r.published+'T00:00:00Z'))/86400000;
+ return days>=0&&String([30,90,180,365,Infinity].findIndex(limit=>days<=limit))===filter;
+}
+function dayStart(){return Date.parse(shanghaiDate.format(new Date())+'T00:00:00Z')}
+function baseMatches(r,today){const q=by('query').value.trim().toLowerCase(),t=by('topic').value,v=by('proof').value;return ageMatches(r,today)&&(!q||[r.title,r.author,r.bvid,r.why,r.topic,...r.tags].join(' ').toLowerCase().includes(q))&&(!t||r.topic===t)&&(!v||(v==='summary'?Boolean(r.subSummary):v==='missing'?r.subStatus==='字幕未抓取到':(v==='direct')===r.direct))}
+function render(){const today=dayStart();current=rows.filter(r=>baseMatches(r,today)&&(mode==='全部'||(mode==='前 5 条'?r.n<=5:category(r)===mode)));const allowed=rows.filter(r=>eligible(r,today));by('declutterStatus').textContent=declutter.checked?'按原收藏夹加入日期判断。当前保留 '+allowed.length+' 条，排除 '+(rows.length-allowed.length)+' 条（含收藏日期未知或异常）。':'模式已关闭，全部收藏均可参与筛选。';
+const inPeriod=allowed.filter(r=>baseMatches(r,today));
+for(const b of by('stats').children)b.querySelector('strong').textContent=inPeriod.filter(r=>category(r)===b.dataset.mode).length;
+const pages=Math.max(1,Math.ceil(current.length/20));page=Math.min(page,pages-1);const slice=current.slice(page*20,page*20+20);by('list').replaceChildren(...(slice.length?slice.map(row):[el('p','没有符合这些条件的条目，请调整关键词或筛选条件。','empty')]));const scope=mode==='全部'?'全部视频':mode;by('summary').textContent=scope+' · '+current.length+' 条'+(slice.length?'　按收藏夹原序排列':'');by('pn').textContent=(page+1)+' / '+pages;by('prev').disabled=page===0;by('next').disabled=page===pages-1;by('copyset').disabled=!current.length;for(const b of document.querySelectorAll('[data-mode]'))b.setAttribute('aria-pressed',String(b.dataset.mode===mode))}
+for(const label of labels){const b=el('button',null,'stat');b.dataset.mode=label;b.append(el('strong',String(rows.filter(r=>r.verdict===label).length)),el('span',label));b.onclick=()=>choose(label);by('stats').append(b)}
+for(const [id,label] of [['all','全部'],['pilot','前 5 条']]){by(id).dataset.mode=label;by(id).onclick=()=>choose(label)}
+for(const t of [...new Set(rows.map(r=>r.topic))].sort((a,b)=>a.localeCompare(b,'zh'))){by('topic').add(new Option(t,t))}
+for(const id of ['query','topic','proof'])by(id).oninput=()=>{page=0;render();refreshDeck()};by('copyset').onclick=()=>copy(current.map(r=>r.url).join('\n'));
+for(const [id,step] of [['prev',-1],['next',1]])by(id).onclick=()=>{page+=step;render();by('summary').scrollIntoView({block:'start'})};
+by('coverage').textContent='按收藏夹原序核对 '+rows.length+' 条视频。选择下方建议，可查看依据并复制分享链接。';
+by('methodstats').textContent=config.goal;
+
+const voteKey='triage-v1:'+datasetId,known=new Set(rows.map(r=>r.bvid));let votes=[],activeCard=null,start=null;
+try{const saved=JSON.parse(localStorage.getItem(voteKey)||JSON.stringify(config.seed));if(Array.isArray(saved))votes=saved.filter(v=>Array.isArray(v)&&known.has(v[0])&&typeof v[1]==='boolean')}catch{by('saveState').textContent='无法读取已保存进度'}
+let decisions=new Map(votes.map(([id,value,note])=>[id,{value,note}]));
+function category(r){const d=decisions.get(r.bvid);return d?(d.value?'已选摄入':'已选不摄入'):r.verdict}
+for(const label of ['已选摄入','已选不摄入'].reverse()){const b=el('button',null,'stat');b.dataset.mode=label;b.append(el('strong','0'),el('span',label));b.onclick=()=>choose(label);by('stats').prepend(b)}
+if(votes.some(v=>v[1]))mode='已选摄入';else if(votes.length)mode='已选不摄入';
+render();
+const notes=new Map(votes.map(([id,,note])=>[id,note]));
+function readNote(){return {type:by('humanType').value.trim(),reason:by('humanReason').value.trim()}}
+function refreshDeck(preferredId){if(activeCard)notes.set(activeCard.bvid,readNote());const chosen=new Map(votes),scope=by('reviewScope').value,today=dayStart(),pool=rows.filter(r=>baseMatches(r,today)&&(scope==='全部视频'||(scope==='低置信度'?r.conf==='低':r.verdict==='待核实'))),left=pool.filter(r=>!chosen.has(r.bvid));const eligibleVotes=rows.filter(r=>eligible(r,today)&&chosen.get(r.bvid)).length;activeCard=left.find(r=>r.bvid===preferredId)||left[0];
+const note=notes.get(activeCard?.bvid);
+by('humanType').value=note?.type||'';by('humanReason').value=note?.reason||'';by('humanReview').hidden=!activeCard;by('reviewCount').textContent=scope+'已决定 '+(pool.length-left.length)+' / '+pool.length+' · 全部已选摄入 '+eligibleVotes+' 条';by('card').replaceChildren(activeCard?row(activeCard):el('p',pool.length?'当前范围已全部决定。':'当前时间段和复核范围内没有视频。'));by('playerSlot').replaceChildren();if(activeCard)attachPlayer(activeCard);by('undoVote').disabled=!votes.some(v=>rows.some(r=>r.bvid===v[0]&&eligible(r,today)));by('voteYes').disabled=by('voteNo').disabled=!activeCard;by('exportVotes').disabled=!eligibleVotes}
+function attachPlayer(video){
+ const box=el('div',null,'review-player');
+ const frame=document.createElement('iframe');
+ const url=new URL('https://player.bilibili.com/player.html');
+ url.search=new URLSearchParams({bvid:video.bvid,page:'1',autoplay:'0'}).toString();
+ frame.title='播放 '+video.title;
+ frame.allow='fullscreen; picture-in-picture';
+ frame.allowFullscreen=true;
+ frame.loading='lazy';
+ frame.referrerPolicy='strict-origin-when-cross-origin';
+ frame.src=url.href;
+ const controls=el('div',null,'player-controls');
+ controls.append(anchor('在 B 站观看 ↗',video.url));
+ box.append(frame,controls);
+ by('playerSlot').append(box);
+}
+function saveVotes(preferredId){try{localStorage.setItem(voteKey,JSON.stringify(votes));by('saveState').textContent='进度已保存'}catch{by('saveState').textContent='浏览器未能保存进度，请在关闭前导出'}decisions=new Map(votes.map(([id,value,note])=>[id,{value,note}]));render();refreshDeck(preferredId)}
+function decide(yes){if(activeCard){votes.push([activeCard.bvid,yes,readNote()]);saveVotes()}}
+function decideArtwork(include){
+ if(!activeCard)return;
+ by('humanType').value='作品展示 · 视觉参考';
+ decide(include);
+}
+by('artYes').onclick=()=>decideArtwork(true);
+by('artNo').onclick=()=>decideArtwork(false);
+by('reviewOpen').onclick=()=>{const panel=by('reviewPanel');panel.hidden=!panel.hidden;by(panel.hidden?'closedExport':'exportSlot').append(by('exportRow'));by('reviewOpen').setAttribute('aria-expanded',String(!panel.hidden))};by('reviewScope').onchange=refreshDeck;by('voteYes').onclick=()=>decide(true);by('voteNo').onclick=()=>decide(false);by('undoVote').onclick=()=>{const pos=votes.findLastIndex(v=>rows.some(r=>r.bvid===v[0]&&eligible(r,dayStart())));const last=pos<0?null:votes.splice(pos,1)[0];if(last){const r=rows.find(r=>r.bvid===last[0]);if(!ageMatches(r,dayStart())){by('ageFilter').value='';page=0;render()}if(by('reviewScope').value==='低置信度'&&r.conf!=='低'||by('reviewScope').value==='待核实'&&r.verdict!=='待核实')by('reviewScope').value='全部视频';saveVotes(last[0])}}
+by('card').onpointerdown=e=>{if(e.target.closest('a,button,summary'))return;start=[e.clientX,e.clientY];by('card').setPointerCapture(e.pointerId)};by('card').onpointercancel=()=>start=null;by('card').onpointerup=e=>{if(start){const dx=e.clientX-start[0],dy=e.clientY-start[1];start=null;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)*1.5)decide(dx>0)}};
+document.addEventListener('keydown',e=>{if(!by('reviewPanel').hidden&&!e.repeat&&!e.target.closest('input,select,textarea')&&['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();decide(e.key==='ArrowRight')}});
+by('exportVotes').onclick=()=>{const selected=new Map([...decisions].filter(([,d])=>d.value).map(([id,d])=>[id,d.note])),picked=rows.filter(r=>selected.has(r.bvid)&&eligible(r,dayStart()));const data={任务:'先遵守目标库 AGENTS.md、workflows/ingest.md 和 schemas/content.md。逐条按 BV、工具实体和主题查重。先看 human.type 与 human.reason（人工建议摄入类型与人工备注），明确的人工作为编译意图；未填写时结合 AI 的 topic、form 和实际正文判断。topic 用于检索已有页和选择现有标签。视觉参考先核对原作品、关键画面或带时间点的片段，记录可观察的设计特征。缺少可读正文先补采，有正文也要核对其是否支持人评。方法、案例、概念解释和评测先整理登记来源，优先补已有 wiki 页；工具卡按 workflows/catalog.md 核实实体后写 catalog/tools；混合材料可两层互链。补充已有页面先定位目标；自定义类型或证据冲突无法判定时保留待确认。每条记录实际去向、证据和未完成原因。',收藏夹:config.name,视频:picked.map(r=>({标题:r.title,BV:r.bvid,分享链接:r.url,发布日期:r.published,收藏日期:r.favorited,原筛选建议:r.verdict,AI主题:r.topic,AI内容形式:r.form,作者:r.author,材料引用:r.links,字幕原文:r.subPath||null,人工决定:'摄入',人工建议摄入类型:selected.get(r.bvid)?.type||null,人工备注:selected.get(r.bvid)?.reason||null}))};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='人工确认摄入清单.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000)};refreshDeck();
+declutter.onchange=()=>{try{localStorage.setItem(declutterKey,declutter.checked?'on':'off')}catch{}page=0;render();refreshDeck()};
+by('ageFilter').onchange=()=>{page=0;render();refreshDeck()};
+
+
+function backupDocument(){
+ return {schema_version:1,dataset_id:datasetId,exported_at:new Date().toISOString(),timezone:config.timezone,as_of:new Date(dayStart()).toISOString().slice(0,10),report_version:1,declutter:declutter.checked,
+         decisions:votes.map(([bvid,value,note],i)=>({bvid,decision:value?'include':'exclude',type:note?.type||'',reason:note?.reason||'',revision:i+1}))};
+}
+by('backup').onclick=()=>{
+ const url=URL.createObjectURL(new Blob([JSON.stringify(backupDocument(),null,2)],{type:'application/json'}));
+ const a=el('a','');a.download='decisions.json';a.href=url;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);
+};
+by('restore').onchange=async e=>{
+ try{
+  const f=e.target.files[0];if(!f)return;
+  const d=JSON.parse(await f.text());
+  if(d.schema_version!==1||d.dataset_id!==datasetId||typeof d.declutter!=='boolean'||!Array.isArray(d.decisions))throw Error('文件版本或收藏夹不匹配');
+  const incoming=d.decisions.map((r,i)=>{
+   if(!known.has(r.bvid)||!['include','exclude'].includes(r.decision)||typeof r.type!=='string'||typeof r.reason!=='string'||r.revision!==i+1)throw Error('无法识别决定：'+r.bvid);
+   return [r.bvid,r.decision==='include',{type:r.type,reason:r.reason}];
+  });
+  if(votes.length && JSON.stringify(incoming)!==JSON.stringify(votes) && !window.confirm('用此备份替换本页的人工决定？可以先取消并导出当前决定。'))return;
+  votes=incoming;notes.clear();for(const [id,,note] of votes)notes.set(id,note);
+  activeCard=null;declutter.checked=d.declutter;
+  try{localStorage.setItem(declutterKey,d.declutter?'on':'off')}catch{}
+  saveVotes();by('transfer').textContent='已恢复 '+votes.length+' 条决定记录';
+ }catch(err){by('transfer').textContent=err.message}finally{e.target.value=''}
+};
+</script></html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>业务信号流转：SVG path morphing 动态路径</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: #ffffff; color: #111827; }
+  #wrap { width: 100%; padding: 14px 18px 16px; }
+  .hd { padding: 2px 2px 10px; border-bottom: 1px solid #eef1f5; margin-bottom: 12px; }
+  .hd h1 { margin: 0; font-size: 17px; font-weight: 650; color: #111827; }
+  .hd p { margin: 6px 0 0; font-size: 12.5px; color: #6b7280; line-height: 1.5; }
+  #st { min-height: 18px; font-size: 12px; color: #9ca3af; text-align: center; padding-top: 8px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="hd"><h1>业务信号流转：SVG path morphing 动态路径</h1><p>结构：标题说明 + 自适应主体（静态 SVG / Canvas，无外部脚本依赖）+ 状态节点 #st</p></div>
+
+  <style>
+    .stage { width: 100%; padding: 4px 2px 0; }
+    svg { display: block; width: min(100%, 780px); height: auto; margin: 0 auto; overflow: visible; }
+    .flow-line { stroke-dasharray: 16 12; animation: dash 1.8s linear infinite; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-in-out infinite; }
+    @keyframes dash { to { stroke-dashoffset: -56; } }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .92; } 50% { transform: scale(1.06); opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .flow-line, .pulse { animation-duration: 6s; } }
+  </style>
+  <div class="stage">
+    <svg viewBox="0 0 760 360" role="img" aria-label="业务信号从触达到转化的动态路径">
+      <defs>
+        <linearGradient id="flowGrad" x1="80" y1="0" x2="660" y2="0" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#2563eb"/><stop offset=".52" stop-color="#14b8a6"/><stop offset="1" stop-color="#f59e0b"/>
+        </linearGradient>
+        <linearGradient id="blobGrad" x1="390" y1="72" x2="640" y2="290" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#ccfbf1"/>
+        </linearGradient>
+      </defs>
+      <path d="M86 214 C190 92 312 304 426 178 S604 92 652 216" fill="none" stroke="url(#flowGrad)" stroke-width="14" stroke-linecap="round" class="flow-line"/>
+      <path fill="url(#blobGrad)" d="M444 104 C502 74 570 94 594 150 C620 211 574 272 502 272 C430 272 388 220 402 158 C409 130 422 115 444 104 Z">
+        <animate attributeName="d" dur="5s" repeatCount="indefinite" values="
+          M444 104 C502 74 570 94 594 150 C620 211 574 272 502 272 C430 272 388 220 402 158 C409 130 422 115 444 104 Z;
+          M434 120 C490 78 562 80 606 140 C650 198 590 260 520 284 C448 308 388 238 390 170 C392 142 412 128 434 120 Z;
+          M444 104 C502 74 570 94 594 150 C620 211 574 272 502 272 C430 272 388 220 402 158 C409 130 422 115 444 104 Z"/>
+      </path>
+      <g class="pulse"><circle cx="86" cy="214" r="29" fill="#eff6ff" stroke="#2563eb" stroke-width="3.5"/><text x="86" y="220" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4ed8">触达</text></g>
+      <g class="pulse" style="animation-delay:.25s"><circle cx="336" cy="252" r="33" fill="#f0fdfa" stroke="#14b8a6" stroke-width="3.5"/><text x="336" y="258" text-anchor="middle" font-size="15" font-weight="700" fill="#0f766e">互动</text></g>
+      <g class="pulse" style="animation-delay:.5s"><circle cx="652" cy="216" r="31" fill="#fff7ed" stroke="#f59e0b" stroke-width="3.5"/><text x="652" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">转化</text></g>
+      <text x="500" y="166" text-anchor="middle" font-size="20" font-weight="800" fill="#0f172a">高潜人群</text>
+      <text x="500" y="194" text-anchor="middle" font-size="13" fill="#475569">路径形态随策略重心平滑变化</text>
+    </svg>
+  </div>
+
+  <div id="st" role="status"></div>
+</div>
+</body>
+</html>

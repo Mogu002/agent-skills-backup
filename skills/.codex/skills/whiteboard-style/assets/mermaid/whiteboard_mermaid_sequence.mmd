@@ -1,0 +1,14 @@
+sequenceDiagram
+    participant U as 评测用户
+    participant S as 调度服务
+    participant E as 执行引擎
+    participant J as 判分服务
+    participant D as 结果库
+    U->>S: 提交评测任务
+    S->>E: 分发用例分片
+    E->>E: 调用模型与工具
+    E-->>S: 返回轨迹
+    S->>J: 请求判分
+    J->>D: 写入分项得分
+    D-->>U: 返回评测报告
+    S-->>U: 推送任务状态

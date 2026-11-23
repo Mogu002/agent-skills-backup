@@ -1,0 +1,4 @@
+interface:
+  display_name: "benchmark-base-make"
+  short_description: "依据评测题设计构建飞书 Base 副本样张，生成附件并验证数据、Gold 与修改范围"
+  default_prompt: "使用 $benchmark-base-make，按指定评测题的样张设计思路修改其 Base 副本，核对目标与字段差异、生成所需附件并分层验收。"

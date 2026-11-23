@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doubao-Eval"
+  short_description: "按豆包规则读取 Base，并输出人评同款字段、总分与证据"
+  default_prompt: "使用 $doubao-eval 对照原始 Query 评测 Base 产物，先经 lark-base-reader 分流取证，再输出与人评表同名的字段、总分和证据。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lark Base Record Reader"
+  short_description: "Read authenticated Lark Base record share links"
+  default_prompt: "Use $lark-base-record-reader to read this Lark Base record share link."

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>工作日晚间与周一上午是请求高峰</title>
+<script src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: #ffffff; color: #1f2937; }
+  #wrap { width: 100%; padding: 14px 18px 16px; }
+  .hd { padding: 2px 2px 10px; border-bottom: 1px solid #eef1f5; margin-bottom: 6px; }
+  .hd h1 { margin: 0; font-size: 17px; font-weight: 650; color: #111827; letter-spacing: .2px; }
+  .hd p { margin: 6px 0 0; font-size: 12.5px; color: #6b7280; line-height: 1.5; }
+  #chart { width: 100%; height: 380px; }
+  #st { min-height: 20px; font-size: 13px; color: #6b7280; text-align: center; padding: 6px 12px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="hd"><h1>工作日晚间与周一上午是请求高峰</h1><p>热力图：星期 × 时段的任务提交密度（次/千次），必须保留 visualMap 让颜色可解释</p></div>
+  <div id="chart"></div>
+  <div id="st" role="status">加载中...</div>
+</div>
+<script>
+(function boot() {
+  var st = document.getElementById("st") || document.getElementById("status");
+  function setStatus(text) { if (st) st.textContent = text || ""; }
+
+  if (typeof echarts === "undefined") {
+    setStatus("图表库加载中...");
+    return setTimeout(boot, 150);
+  }
+
+  var chart = echarts.init(document.getElementById("chart"));
+  try {
+      var C = { blue: "#2563eb", green: "#10b981", amber: "#f59e0b", red: "#ef4444", purple: "#8b5cf6", teal: "#14b8a6", slate: "#64748b" };
+
+      var hours = ["0-6", "6-9", "9-12", "12-15", "15-18", "18-21", "21-24"];
+      var days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+      var raw = [
+        [12, 48, 86, 54, 72, 64, 30], [10, 44, 78, 50, 68, 58, 26], [9, 42, 74, 46, 64, 55, 24],
+        [11, 45, 80, 49, 70, 60, 28], [14, 52, 90, 58, 76, 70, 34]
+      ];
+      var data = [];
+      for (var y = 0; y < days.length; y++) for (var x = 0; x < hours.length; x++) data.push([x, y, raw[y][x]]);
+      var option = {
+        animation: false,
+        tooltip: { position: "top", formatter: function (p) { return days[p.data[1]] + " " + hours[p.data[0]] + ": " + p.data[2]; } },
+        grid: { left: 62, right: 26, top: 26, bottom: 66 },
+        xAxis: { type: "category", data: hours, axisLabel: { color: "#4b5563" }, splitArea: { show: true } },
+        yAxis: { type: "category", data: days, axisLabel: { color: "#4b5563" }, splitArea: { show: true } },
+        visualMap: { min: 0, max: 100, orient: "horizontal", left: "center", bottom: 8, textStyle: { color: "#6b7280" }, inRange: { color: ["#eff6ff", "#93c5fd", "#2563eb", "#1e3a8a"] } },
+        series: [{ type: "heatmap", data: data, label: { show: true, fontSize: 10, color: "#1f2937" }, itemStyle: { borderColor: "#ffffff", borderWidth: 2 } }]
+      };
+    chart.setOption(option, true);
+    setStatus("");
+  } catch (err) {
+    setStatus("图表渲染失败: " + (err && err.message ? err.message : String(err)));
+    console.error(err);
+  }
+
+  window.addEventListener("resize", function () { chart.resize(); });
+})();
+</script>
+</body>
+</html>

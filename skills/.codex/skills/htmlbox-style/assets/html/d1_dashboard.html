@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>经营总览 Dashboard：ARR 300 亿、企业客户 1,200 家</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: #ffffff; color: #111827; }
+  #wrap { width: 100%; padding: 14px 18px 16px; }
+  .hd { padding: 2px 2px 10px; border-bottom: 1px solid #eef1f5; margin-bottom: 12px; }
+  .hd h1 { margin: 0; font-size: 17px; font-weight: 650; color: #111827; }
+  .hd p { margin: 6px 0 0; font-size: 12.5px; color: #6b7280; line-height: 1.5; }
+  #st { min-height: 18px; font-size: 12px; color: #9ca3af; text-align: center; padding-top: 8px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="hd"><h1>经营总览 Dashboard：ARR 300 亿、企业客户 1,200 家</h1><p>结构：标题说明 + 自适应主体（静态 SVG / Canvas，无外部脚本依赖）+ 状态节点 #st</p></div>
+
+  <style>
+    .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 12px; }
+    .card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px 16px; background: linear-gradient(180deg,#fbfdff,#f7f9fc); }
+    .label { color: #6b7280; font-size: 12.5px; letter-spacing: .3px; }
+    .num { font-size: 26px; font-weight: 700; margin-top: 8px; color: #0f172a; font-variant-numeric: tabular-nums; }
+    .delta { margin-top: 6px; color: #059669; font-size: 12px; }
+    .panels { display: grid; grid-template-columns: 1.35fr 1fr; gap: 12px; }
+    .panel { border: 1px solid #eef1f5; border-radius: 10px; padding: 10px 12px 4px; }
+    .pt { font-size: 13px; color: #374151; font-weight: 600; margin: 2px 0 6px; }
+    .mini { width: 100%; height: 190px; }
+  </style>
+  <div class="kpis">
+    <div class="card"><div class="label">ARR</div><div class="num" id="k1">0</div><div class="delta">同比 +42%</div></div>
+    <div class="card"><div class="label">企业客户</div><div class="num" id="k2">0</div><div class="delta">同比 +18%</div></div>
+    <div class="card"><div class="label">API 调用</div><div class="num" id="k3">0</div><div class="delta">同比 +27%</div></div>
+  </div>
+  <div class="panels">
+    <div class="panel"><div class="pt">近 6 个月收入（百万元）</div><div class="mini" id="c1"></div></div>
+    <div class="panel"><div class="pt">渠道结构（%）</div><div class="mini" id="c2"></div></div>
+  </div>
+  <script src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+  <script>
+  (function () {
+    var data = [{ el: "k1", v: 300, unit: " 亿" }, { el: "k2", v: 1200, unit: " 家" }, { el: "k3", v: 86, unit: " B" }];
+    var start = null;
+    function tick(ts) {
+      if (!start) start = ts;
+      var p = Math.min(1, (ts - start) / 900);
+      data.forEach(function (d) { document.getElementById(d.el).textContent = Math.round(d.v * p).toLocaleString() + d.unit; });
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    if (typeof echarts === "undefined") { return; }
+    var c1 = echarts.init(document.getElementById("c1"));
+    c1.setOption({
+      animation: false,
+      grid: { left: 44, right: 12, top: 12, bottom: 24 },
+      xAxis: { type: "category", data: ["1月", "2月", "3月", "4月", "5月", "6月"], axisLabel: { color: "#6b7280", fontSize: 10 }, axisLine: { lineStyle: { color: "#e5e7eb" } } },
+      yAxis: { type: "value", axisLabel: { color: "#6b7280", fontSize: 10 }, splitLine: { lineStyle: { color: "#f1f5f9" } } },
+      series: [{ type: "line", smooth: true, symbolSize: 6, data: [32, 41, 48, 52, 61, 68], lineStyle: { width: 2.5, color: "#2563eb" }, itemStyle: { color: "#2563eb" }, areaStyle: { color: "rgba(37,99,235,.12)" } }]
+    });
+    var c2 = echarts.init(document.getElementById("c2"));
+    c2.setOption({
+      animation: false,
+      tooltip: { trigger: "item", formatter: "{b}: {c}%" },
+      series: [{ type: "pie", radius: ["46%", "72%"], center: ["50%", "52%"], label: { fontSize: 10, color: "#4b5563", formatter: "{b}\n{c}%" }, labelLine: { length: 6, length2: 6 },
+        data: [
+          { value: 45, name: "自然", itemStyle: { color: "#2563eb" } },
+          { value: 32, name: "投放", itemStyle: { color: "#14b8a6" } },
+          { value: 23, name: "合作", itemStyle: { color: "#f59e0b" } }
+        ] }]
+    });
+    window.addEventListener("resize", function () { c1.resize(); c2.resize(); });
+  })();
+  </script>
+
+  <div id="st" role="status"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Tweet Get"
+  short_description: "Read public X posts with resilient fallbacks"
+  default_prompt: "Use $x-tweet-get to read this public X post and extract its image and video URLs."

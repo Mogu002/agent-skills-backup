@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "skill": "adaptive-skill-creator-0813",
+  "purpose": "Regression cases for automatic routing. The cases test this skill's boundary, not the quality of the skill it later creates.",
+  "cases": [
+    {
+      "id": "positive-direct-create",
+      "kind": "positive",
+      "query": "帮我把每周整理会议纪要的流程写成一个 Agent Skill。",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    },
+    {
+      "id": "positive-review-existing",
+      "kind": "positive",
+      "query": "评一下这个 SKILL.md，重点看触发边界和可复用性。",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    },
+    {
+      "id": "positive-description",
+      "kind": "positive",
+      "query": "这个 skill 经常误触发，帮我优化 description 和 NOT for 边界。",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    },
+    {
+      "id": "positive-indirect-codify",
+      "kind": "positive",
+      "query": "这套操作我每周都要教 agent 一遍，想让它以后按同一套方法执行。",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    },
+    {
+      "id": "positive-fit-question",
+      "kind": "positive",
+      "query": "这是个一次性 prompt，但以后可能每天都要用，应该做成 Skill 吗？",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    },
+    {
+      "id": "positive-evaluation",
+      "kind": "positive",
+      "query": "给现有 Agent Skill 补一套正例、负例和 hard negatives 评测。",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    },
+    {
+      "id": "negative-install",
+      "kind": "negative",
+      "query": "安装 GitHub 仓库里的 pdf-reader Skill。",
+      "should_trigger": false,
+      "expected_route": "skill-installer"
+    },
+    {
+      "id": "negative-use-existing",
+      "kind": "negative",
+      "query": "用已经安装的 pdf Skill 读这份报告。",
+      "should_trigger": false,
+      "expected_route": "existing-skill"
+    },
+    {
+      "id": "negative-one-off-prompt",
+      "kind": "negative",
+      "query": "帮我把这次给模型的 prompt 改得更简洁。",
+      "should_trigger": false,
+      "expected_route": "ordinary-prompt"
+    },
+    {
+      "id": "negative-plugin",
+      "kind": "negative",
+      "query": "帮我创建一个 Codex plugin，加上 manifest 和 MCP server。",
+      "should_trigger": false,
+      "expected_route": "plugin-creator"
+    },
+    {
+      "id": "negative-lark-api",
+      "kind": "negative",
+      "query": "把飞书审批 API 封装成 lark-cli 自定义 Skill。",
+      "should_trigger": false,
+      "expected_route": "lark-skill-maker"
+    },
+    {
+      "id": "negative-mandatory-rule",
+      "kind": "negative",
+      "query": "把这条安全规则写进 AGENTS.md，让每次任务都强制执行。",
+      "should_trigger": false,
+      "expected_route": "project-rules"
+    },
+    {
+      "id": "negative-realtime-tool",
+      "kind": "negative",
+      "query": "调用 MCP 查询当前的实时订单数据。",
+      "should_trigger": false,
+      "expected_route": "mcp-tool"
+    },
+    {
+      "id": "hard-negative-plugin-with-skill",
+      "kind": "hard_negative",
+      "query": "创建一个可发布的 Codex plugin，里面顺便带一个 Skill。",
+      "should_trigger": false,
+      "expected_route": "plugin-creator"
+    },
+    {
+      "id": "hard-negative-lark-skill-md",
+      "kind": "hard_negative",
+      "query": "把飞书通讯录 API 封装成专用 Skill，也帮我写好 SKILL.md。",
+      "should_trigger": false,
+      "expected_route": "lark-skill-maker"
+    },
+    {
+      "id": "hard-negative-always-on-instruction",
+      "kind": "hard_negative",
+      "query": "帮我写一条让 agent 永远不得提交 secret 的指令。",
+      "should_trigger": false,
+      "expected_route": "project-rules"
+    },
+    {
+      "id": "conflict-install-then-optimize",
+      "kind": "conflict",
+      "query": "先安装这个 Skill，然后帮我审查它的触发边界并优化。",
+      "should_trigger": true,
+      "expected_route": "skill-installer + adaptive-skill-creator-0813"
+    },
+    {
+      "id": "conflict-prompt-or-skill",
+      "kind": "conflict",
+      "query": "这个提示词已经反复用了十几次，帮我判断继续优化 prompt 还是沉淀为 Skill。",
+      "should_trigger": true,
+      "expected_route": "adaptive-skill-creator-0813"
+    }
+  ]
+}

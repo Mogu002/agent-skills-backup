@@ -1,0 +1,7 @@
+interface:
+  display_name: "Adaptive Skill Creator"
+  short_description: "Create shared local skills for agents and IDEs"
+  default_prompt: "Use $adaptive-skill-creator to create a concise reusable local skill for my agents and IDE tools."
+
+policy:
+  allow_implicit_invocation: true

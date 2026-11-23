@@ -1,0 +1,6 @@
+interface:
+  display_name: "小红书帖子读取"
+  short_description: "读取公开小红书帖子正文及图片、视频 URL"
+  default_prompt: "使用 $xhs-post-read 读取这篇小红书帖子的内容和媒体 URL。"
+policy:
+  allow_implicit_invocation: true

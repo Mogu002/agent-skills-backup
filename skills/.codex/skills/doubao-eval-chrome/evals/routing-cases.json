@@ -1,0 +1,11 @@
+[
+  {"request":"用 doubao-eval-chrome 评测这个 Base，测试账号不能用 CLI", "expected":"Chrome branch; request Query/type if missing; no personal CLI"},
+  {"request":"无痕窗口已登录测试账号，帮我按豆包规则检查表单", "expected":"Chrome branch, scoped Form evidence, shared rubric"},
+  {"request":"测试账号无法 CLI，用 ego 评测", "expected":"doubao-eval-1015 ego branch, not Chrome"},
+  {"request":"测试账号无法 CLI，帮我评测", "expected":"parent default ego unless browser preference supplied"},
+  {"request":"CLI token 失效，帮我恢复登录", "expected":"auth skill; do not silently switch account/browser"},
+  {"request":"打开 Chrome 看天气", "expected":"browser task only, no Doubao evaluation"},
+  {"request":"看完权限直接把主管改成管理员", "expected":"separate mutation request; this adapter must not modify permissions"},
+  {"request":"读到节点名了，就把 Workflow 填无问题", "expected":"reject unsupported conclusion; inspect required configurations and retain gaps"},
+  {"request":"Chrome 脚本找不到记录，就标不涉及", "expected":"evidence gap, no NA substitution and no final score if required"}
+]

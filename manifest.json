@@ -1,9 +1,147 @@
 [
   {
-    "source": "/Users/gaojing/.catpaw/skills/adaptive-skill-creator/SKILL.md",
+    "source": "~/.agents/skills-archived/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.agents/skills-archived/adaptive-skill-creator/SKILL.md",
+    "bytes": 6501,
+    "sha256": "46352a802df0f63462eebdf824e2084fb87cb99dd5119bd00eb11aca81d9a355"
+  },
+  {
+    "source": "~/.agents/skills/bilibili-favorites-organizer/SKILL.md",
+    "backup_path": "skills/.agents/skills/bilibili-favorites-organizer/SKILL.md",
+    "bytes": 8162,
+    "sha256": "fc754b69497b563082bb7c1452acb62dcd379deccb9c450d9ba2ddc2844f70a3"
+  },
+  {
+    "source": "~/.agents/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "backup_path": "skills/.agents/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "bytes": 7820,
+    "sha256": "ac1ddff679e6360783e9c4a9cbc4d51e2fe9733a23c8fb04f33c22a9136da5e9"
+  },
+  {
+    "source": "~/.agents/skills/doubao-douyin-transcript/SKILL.md",
+    "backup_path": "skills/.agents/skills/doubao-douyin-transcript/SKILL.md",
+    "bytes": 5522,
+    "sha256": "dc90aefd909a0848ee39ef6763c68b372dc4220292161825ad4c1c4583c8885a"
+  },
+  {
+    "source": "~/.agents/skills/douyin-video-get/SKILL.md",
+    "backup_path": "skills/.agents/skills/douyin-video-get/SKILL.md",
+    "bytes": 3534,
+    "sha256": "5709e562ef700b4e3724f0f097fef8a7bcf091da32a285bebeab3379ac44937a"
+  },
+  {
+    "source": "~/.agents/skills/douyin-video-transcript/SKILL.md",
+    "backup_path": "skills/.agents/skills/douyin-video-transcript/SKILL.md",
+    "bytes": 7283,
+    "sha256": "436c266bd2612e55174b05680e24b27110c594979f5d6b81de92cc13cbf08e3c"
+  },
+  {
+    "source": "~/.agents/skills/ego-browser/SKILL.md",
+    "backup_path": "skills/.agents/skills/ego-browser/SKILL.md",
+    "bytes": 1733,
+    "sha256": "45784c308641ee6eedd1f853baf8041259f2474481d2ee18c5f8d649fcd7f7d4"
+  },
+  {
+    "source": "~/.agents/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.agents/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
+  },
+  {
+    "source": "~/.agents/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.agents/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.agents/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.agents/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.agents/skills/grilling/SKILL.md",
+    "backup_path": "skills/.agents/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.agents/skills/human-allocation/SKILL.md",
+    "backup_path": "skills/.agents/skills/human-allocation/SKILL.md",
+    "bytes": 6793,
+    "sha256": "5eb6277e6db1eab66df23db9e617d15b1fd0acfa4d74f394892f793ff77f479c"
+  },
+  {
+    "source": "~/.agents/skills/ip-as-logo/SKILL.md",
+    "backup_path": "skills/.agents/skills/ip-as-logo/SKILL.md",
+    "bytes": 16205,
+    "sha256": "9c2ed4fdaf854415a273c068e4c76f6690f331a033ba7462e4e05219ae9c3ac6"
+  },
+  {
+    "source": "~/.agents/skills/linuxdo-article-archiver/SKILL.md",
+    "backup_path": "skills/.agents/skills/linuxdo-article-archiver/SKILL.md",
+    "bytes": 6402,
+    "sha256": "712cebcb924fad681d342c0122cb8326c2b6e5c61d820f88bfa7bc684baf589e"
+  },
+  {
+    "source": "~/.agents/skills/llm-wiki-init/SKILL.md",
+    "backup_path": "skills/.agents/skills/llm-wiki-init/SKILL.md",
+    "bytes": 5572,
+    "sha256": "60a37bde61ddd4b4239d500ff8fefa011a3f8487e68d6448f373d773a80b8f65"
+  },
+  {
+    "source": "~/.agents/skills/reverse-engineer-anything/SKILL.md",
+    "backup_path": "skills/.agents/skills/reverse-engineer-anything/SKILL.md",
+    "bytes": 13995,
+    "sha256": "54c454f6e18b5d7e2f3319d2cccdbc96caadb39833e45ca85f943e6b2126d50d"
+  },
+  {
+    "source": "~/.agents/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.agents/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+  },
+  {
+    "source": "~/.agents/skills/tencent-smartsheet-location-fill-from-md/SKILL.md",
+    "backup_path": "skills/.agents/skills/tencent-smartsheet-location-fill-from-md/SKILL.md",
+    "bytes": 6300,
+    "sha256": "c6576e3fd054edf69df796e5d1d244d8a7611c1a3e906425944b1c788257b4d3"
+  },
+  {
+    "source": "~/.aider-desk/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.aider-desk/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.aider-desk/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.aider-desk/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.aider-desk/skills/grilling/SKILL.md",
+    "backup_path": "skills/.aider-desk/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.aider-desk/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.aider-desk/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+  },
+  {
+    "source": "~/.catpaw/skills/adaptive-skill-creator/SKILL.md",
     "backup_path": "skills/.catpaw/skills/adaptive-skill-creator/SKILL.md",
-    "bytes": 3634,
-    "sha256": "053db86639d7cfd3c313f6764a3f040eec2345d9736efbf57883e34e3420c834"
+    "bytes": 1842,
+    "sha256": "6ac1515d9b19148e9c91429e6573cd44954107b67ea17fee172d089f8c7c239c"
+  },
+  {
+    "source": "~/.catpaw/skills/bytetech-article-reader/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/bytetech-article-reader/SKILL.md",
+    "bytes": 3994,
+    "sha256": "abc82771bde1a670ef4973d0ba99586c255f4cc4f860c84fa42408f68f9c59e3"
   },
   {
     "source": "/Users/gaojing/.catpaw/skills/catdesk-browser/SKILL.md",
@@ -40,6 +178,12 @@
     "backup_path": "skills/.catpaw/skills/frontend-change-prompt-optimizer/SKILL.md",
     "bytes": 11758,
     "sha256": "6c7bad9d72170407938861d48fe84fc041aa86968aef1b3a080eea06fc895edf"
+  },
+  {
+    "source": "~/.catpaw/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.catpaw/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
   },
   {
     "source": "/Users/gaojing/.catpaw/skills/pdf/SKILL.md",
@@ -270,10 +414,28 @@
     "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
   },
   {
-    "source": "/Users/gaojing/.claude/skills/adaptive-skill-creator/SKILL.md",
+    "source": "~/.claude/skills/adaptive-skill-creator-0813/SKILL.md",
+    "backup_path": "skills/.claude/skills/adaptive-skill-creator-0813/SKILL.md",
+    "bytes": 5709,
+    "sha256": "1774966af02e21ed46076359bcb1fcc4432fd7ebe146d10dcc7799d25b0a4f61"
+  },
+  {
+    "source": "~/.claude/skills/adaptive-skill-creator/SKILL.md",
     "backup_path": "skills/.claude/skills/adaptive-skill-creator/SKILL.md",
-    "bytes": 3634,
-    "sha256": "053db86639d7cfd3c313f6764a3f040eec2345d9736efbf57883e34e3420c834"
+    "bytes": 5639,
+    "sha256": "af19e8a8ca58a355f44d9901f7ee26430c30241cfb201cde839ad7fe3c7decdd"
+  },
+  {
+    "source": "~/.claude/skills/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.claude/skills/anti-defensive-writing/SKILL.md",
+    "bytes": 6459,
+    "sha256": "dd6b4140d27e89931ee7512320cf8448ff2f35e9bd7f4d80aa902e0d5c9ae913"
+  },
+  {
+    "source": "~/.claude/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.claude/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "bytes": 6458,
+    "sha256": "d4a3547e7155467ecd12efae5580647f7761b68539ce4486a2b871d45bbe3a8f"
   },
   {
     "source": "/Users/gaojing/.claude/skills/ba-seed-generator/SKILL.md",
@@ -282,22 +444,292 @@
     "sha256": "ca65a22c6eee1ad524908af41f5b8e87abfbd1120870ce0e7592a2518d9650d6"
   },
   {
+    "source": "~/.claude/skills/bytetech-article-reader/SKILL.md",
+    "backup_path": "skills/.claude/skills/bytetech-article-reader/SKILL.md",
+    "bytes": 3994,
+    "sha256": "abc82771bde1a670ef4973d0ba99586c255f4cc4f860c84fa42408f68f9c59e3"
+  },
+  {
+    "source": "~/.claude/skills/ego-browser/SKILL.md",
+    "backup_path": "skills/.claude/skills/ego-browser/SKILL.md",
+    "bytes": 1733,
+    "sha256": "45784c308641ee6eedd1f853baf8041259f2474481d2ee18c5f8d649fcd7f7d4"
+  },
+  {
+    "source": "~/.claude/skills/fireworks-tech-graph/SKILL.md",
+    "backup_path": "skills/.claude/skills/fireworks-tech-graph/SKILL.md",
+    "bytes": 32478,
+    "sha256": "fcb6ea52730af1f42f4746356809994a6b5e5fdad03f18711a7b835d6849da67"
+  },
+  {
+    "source": "~/.claude/skills/fireworks-tech-graph/skills/fireworks-tech-graph/SKILL.md",
+    "backup_path": "skills/.claude/skills/fireworks-tech-graph/skills/fireworks-tech-graph/SKILL.md",
+    "bytes": 32478,
+    "sha256": "fcb6ea52730af1f42f4746356809994a6b5e5fdad03f18711a7b835d6849da67"
+  },
+  {
+    "source": "~/.claude/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.claude/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
+  },
+  {
+    "source": "~/.claude/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.claude/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.claude/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.claude/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.claude/skills/grilling/SKILL.md",
+    "backup_path": "skills/.claude/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.claude/skills/ip-as-logo/SKILL.md",
+    "backup_path": "skills/.claude/skills/ip-as-logo/SKILL.md",
+    "bytes": 16205,
+    "sha256": "9c2ed4fdaf854415a273c068e4c76f6690f331a033ba7462e4e05219ae9c3ac6"
+  },
+  {
+    "source": "~/.claude/skills/playwright-cli/SKILL.md",
+    "backup_path": "skills/.claude/skills/playwright-cli/SKILL.md",
+    "bytes": 11869,
+    "sha256": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13"
+  },
+  {
     "source": "/Users/gaojing/.claude/skills/python-exercise-log/SKILL.md",
     "backup_path": "skills/.claude/skills/python-exercise-log/SKILL.md",
     "bytes": 1741,
     "sha256": "e373755404d67052bc4a7ff320cb8b6ae01991ff4387898ae2771efaa2688184"
   },
   {
-    "source": "/Users/gaojing/.codex/skills/.system/imagegen/SKILL.md",
-    "backup_path": "skills/.codex/skills/.system/imagegen/SKILL.md",
-    "bytes": 24003,
-    "sha256": "59981d23519222bcecf1be48bb37730bbc50539ceb0e35ad09fcef98a3df19d3"
+    "source": "~/.claude/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.claude/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
   },
   {
-    "source": "/Users/gaojing/.codex/skills/.system/openai-docs/SKILL.md",
+    "source": "~/.codewhale/skills/batch/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/batch/SKILL.md",
+    "bytes": 625,
+    "sha256": "5b8c7bba12ae31d7afe9908aa9cfa1ef276c30e04f3cab424dc37e778de561dc"
+  },
+  {
+    "source": "~/.codewhale/skills/best-of-n/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/best-of-n/SKILL.md",
+    "bytes": 4726,
+    "sha256": "dc90f575c66ae050fc8a90570b344f68a9103e93cb8bff25bf69956f3a18987b"
+  },
+  {
+    "source": "~/.codewhale/skills/contributor-onboarding/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/contributor-onboarding/SKILL.md",
+    "bytes": 5061,
+    "sha256": "0f5dfb27e4def27af5e2af16affd403ad2d852129596a39ede391cdde02ff2bf"
+  },
+  {
+    "source": "~/.codewhale/skills/dataviz/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/dataviz/SKILL.md",
+    "bytes": 576,
+    "sha256": "5fc2960206d7ec413c196a90a8a3f26a493604485d7b157a92782b69a5d923df"
+  },
+  {
+    "source": "~/.codewhale/skills/debug/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/debug/SKILL.md",
+    "bytes": 783,
+    "sha256": "34d6d926aba281d731e62dc7688a81c6afff6036b27933904dff5348d158c48e"
+  },
+  {
+    "source": "~/.codewhale/skills/delegate/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/delegate/SKILL.md",
+    "bytes": 3158,
+    "sha256": "c9cd48fbc33d7571513f0cdf0c8719b3df1e83d76fbb9666912adb2745cc6a58"
+  },
+  {
+    "source": "~/.codewhale/skills/dependency-update/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/dependency-update/SKILL.md",
+    "bytes": 573,
+    "sha256": "5db9b1b34ea75be40725afab2e38f5e46dccff41580fe36f1a8c737c95c20b1a"
+  },
+  {
+    "source": "~/.codewhale/skills/document/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/document/SKILL.md",
+    "bytes": 677,
+    "sha256": "4d37e787251935f981c69ae22fb5faf66459c22520edf28472692ed0d5c24e64"
+  },
+  {
+    "source": "~/.codewhale/skills/documents/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/documents/SKILL.md",
+    "bytes": 252,
+    "sha256": "27ba3161ab9448245d6658efadccf955ee8f4ef2cda4f7b825a99c45b8bd66aa"
+  },
+  {
+    "source": "~/.codewhale/skills/docx/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/docx/SKILL.md",
+    "bytes": 515,
+    "sha256": "fb2edb80df2119e42c1febcb5eae74c15092ba1e5dfbedf91ee45118ed9c7556"
+  },
+  {
+    "source": "~/.codewhale/skills/fleet-manager/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/fleet-manager/SKILL.md",
+    "bytes": 4469,
+    "sha256": "3a7830613a1b8d25afdc72a5eae8764266500768745e307e8fb6002b25ebdcac"
+  },
+  {
+    "source": "~/.codewhale/skills/frontend-design/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/frontend-design/SKILL.md",
+    "bytes": 576,
+    "sha256": "949cade3cba3791d63cf494079f4bf843ca0dc0b32ba152c24513076b1db6b47"
+  },
+  {
+    "source": "~/.codewhale/skills/handoff/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/handoff/SKILL.md",
+    "bytes": 4838,
+    "sha256": "8f809e2e32a7344d50a9bb03ba5e965b7362b89f1e2c9a36fcec0b1ae08c9c1d"
+  },
+  {
+    "source": "~/.codewhale/skills/help/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/help/SKILL.md",
+    "bytes": 2474,
+    "sha256": "3e03eda8e9581682093eeb2c37fc18478b51ee2b014638f8927198e36ea613ef"
+  },
+  {
+    "source": "~/.codewhale/skills/implement/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/implement/SKILL.md",
+    "bytes": 757,
+    "sha256": "0d837b63efc177c24ab8dcb421dc9ea654efaee4332570c81661d6c8358c0b57"
+  },
+  {
+    "source": "~/.codewhale/skills/interview/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/interview/SKILL.md",
+    "bytes": 927,
+    "sha256": "273bc3906c6bc0b9d4f10f426593dc0e6d45ad8a56d6800c0dff7cd8c5fc8310"
+  },
+  {
+    "source": "~/.codewhale/skills/mcp-builder/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/mcp-builder/SKILL.md",
+    "bytes": 1512,
+    "sha256": "49cff44bc42918c10f03763b725ae78429b5eca311d2c78b521c6de90cf160cf"
+  },
+  {
+    "source": "~/.codewhale/skills/mcp-discovery/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/mcp-discovery/SKILL.md",
+    "bytes": 3243,
+    "sha256": "b7ecdccf9dc95ea82c562ea59f2fc940f2b43002b558185b89df4b07323d821b"
+  },
+  {
+    "source": "~/.codewhale/skills/pdf/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/pdf/SKILL.md",
+    "bytes": 1239,
+    "sha256": "14d37e1c04d744f8994ead97771875f010b3c1d7eb00ecdd328f6c8fee70fdca"
+  },
+  {
+    "source": "~/.codewhale/skills/plan/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/plan/SKILL.md",
+    "bytes": 855,
+    "sha256": "eee2189316230e7c6c05516aea1e4f5b21f7cf8da1966ba19556a494c8f06eee"
+  },
+  {
+    "source": "~/.codewhale/skills/plugin-creator/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/plugin-creator/SKILL.md",
+    "bytes": 2458,
+    "sha256": "46a55676294c53942d1bcc232da57f9630f14eb9aabd8a9c4331b68927323d70"
+  },
+  {
+    "source": "~/.codewhale/skills/pptx/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/pptx/SKILL.md",
+    "bytes": 434,
+    "sha256": "e9663d929e47533efff3b9388f6da62aad7f48b75f01e30ae310dd59b53f169a"
+  },
+  {
+    "source": "~/.codewhale/skills/presentations/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/presentations/SKILL.md",
+    "bytes": 260,
+    "sha256": "ecddd5663a93bc1afca20ef2a5bdac26258a98557aa1a743797c0a5fa720a247"
+  },
+  {
+    "source": "~/.codewhale/skills/research/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/research/SKILL.md",
+    "bytes": 551,
+    "sha256": "8caad7c5bd3275fa1db72d6687a514c2b30af1648dd7f73f5e8386acd4f0f6cf"
+  },
+  {
+    "source": "~/.codewhale/skills/review/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/review/SKILL.md",
+    "bytes": 593,
+    "sha256": "3f44cd1f0016402fc68928702a86e92cc6286d7df669dc0a01f2624382accf25"
+  },
+  {
+    "source": "~/.codewhale/skills/security-review/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/security-review/SKILL.md",
+    "bytes": 676,
+    "sha256": "07e9c826e066c3f3e5f99d895718f01dc2658ced8fd2ffb6fab8cc795904f9e7"
+  },
+  {
+    "source": "~/.codewhale/skills/simplify/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/simplify/SKILL.md",
+    "bytes": 623,
+    "sha256": "9ad62b9622c989825f02a17979aa6b8d363705c277261ad677c00d5bebfbad3d"
+  },
+  {
+    "source": "~/.codewhale/skills/skill-creator/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/skill-creator/SKILL.md",
+    "bytes": 3863,
+    "sha256": "6bc62cc2c0c61c622155c396206515a79acdd452f94c3136f2946efb8e56cf6a"
+  },
+  {
+    "source": "~/.codewhale/skills/skill-installer/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/skill-installer/SKILL.md",
+    "bytes": 1494,
+    "sha256": "cd4ac950534bceba6265e326cbc09998c296db97e094fe81698c22030bfc8bba"
+  },
+  {
+    "source": "~/.codewhale/skills/spreadsheets/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/spreadsheets/SKILL.md",
+    "bytes": 258,
+    "sha256": "6d1c6c8730f325e3ec9e16ac5b2fe2e3d3cb42c4555343c36799ee693ab26844"
+  },
+  {
+    "source": "~/.codewhale/skills/test/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/test/SKILL.md",
+    "bytes": 617,
+    "sha256": "9c6665b525f9cdb8e89a67193a1f1d02d65cfd90cf356b9dc1dc2cffcab1d333"
+  },
+  {
+    "source": "~/.codewhale/skills/verify/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/verify/SKILL.md",
+    "bytes": 621,
+    "sha256": "25211745e3856643be8217e0cfc51eee20ecaf67674e00b69f55cd8d38ed0a35"
+  },
+  {
+    "source": "~/.codewhale/skills/webapp-testing/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/webapp-testing/SKILL.md",
+    "bytes": 598,
+    "sha256": "54a739f8bcdcdde838affa653d7273b944d2898eab042c2f01bd03d1a81afa27"
+  },
+  {
+    "source": "~/.codewhale/skills/xlsx/SKILL.md",
+    "backup_path": "skills/.codewhale/skills/xlsx/SKILL.md",
+    "bytes": 448,
+    "sha256": "9f39afcb40351ffae49827440f25b820847da73d2a383136c81a47f192e997f5"
+  },
+  {
+    "source": "~/.codex/skills/.system/imagegen/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/imagegen/SKILL.md",
+    "bytes": 19201,
+    "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+  },
+  {
+    "source": "~/.codex/skills/.system/openai-docs/SKILL.md",
     "backup_path": "skills/.codex/skills/.system/openai-docs/SKILL.md",
-    "bytes": 7315,
-    "sha256": "1ee3c911a5c615c4f508e5611cb6e38548aba5ea12efb0c3e8838614cc6347b9"
+    "bytes": 2652,
+    "sha256": "208bb19dcdfa7cdcae5e6766ff3fd6bf7268d235c12a426869c8151a33e5c3ab"
   },
   {
     "source": "/Users/gaojing/.codex/skills/.system/plugin-creator/SKILL.md",
@@ -306,16 +738,184 @@
     "sha256": "237ad1b3d2bfd31292a10201966e1635e047f1839ef37a0bbd5c4e5fd650e531"
   },
   {
-    "source": "/Users/gaojing/.codex/skills/.system/skill-creator/SKILL.md",
-    "backup_path": "skills/.codex/skills/.system/skill-creator/SKILL.md",
-    "bytes": 22047,
-    "sha256": "da44c88f6b3845a8fa8c60792ec9a722110a55a9793c279757b48fefb11f819c"
+    "source": "~/.codex/skills/.system/review-agent/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/review-agent/SKILL.md",
+    "bytes": 2661,
+    "sha256": "07079efd0dc76f05fade424e5dfb048dce1de2df7626e1a4f56292a4f3f92228"
   },
   {
-    "source": "/Users/gaojing/.codex/skills/.system/skill-installer/SKILL.md",
+    "source": "~/.codex/skills/.system/skill-creator/SKILL.md",
+    "backup_path": "skills/.codex/skills/.system/skill-creator/SKILL.md",
+    "bytes": 15311,
+    "sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66"
+  },
+  {
+    "source": "~/.codex/skills/.system/skill-installer/SKILL.md",
     "backup_path": "skills/.codex/skills/.system/skill-installer/SKILL.md",
-    "bytes": 3366,
-    "sha256": "09df0ea7921f63d51befae9fc8f71daece5ef49d7b96e35fff8b18d15d6afda7"
+    "bytes": 3367,
+    "sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee"
+  },
+  {
+    "source": "~/.codex/skills/adaptive-skill-creator-0813/SKILL.md",
+    "backup_path": "skills/.codex/skills/adaptive-skill-creator-0813/SKILL.md",
+    "bytes": 5709,
+    "sha256": "1774966af02e21ed46076359bcb1fcc4432fd7ebe146d10dcc7799d25b0a4f61"
+  },
+  {
+    "source": "~/.codex/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.codex/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 6501,
+    "sha256": "46352a802df0f63462eebdf824e2084fb87cb99dd5119bd00eb11aca81d9a355"
+  },
+  {
+    "source": "~/.codex/skills/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.codex/skills/anti-defensive-writing/SKILL.md",
+    "bytes": 6459,
+    "sha256": "dd6b4140d27e89931ee7512320cf8448ff2f35e9bd7f4d80aa902e0d5c9ae913"
+  },
+  {
+    "source": "~/.codex/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.codex/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "bytes": 6458,
+    "sha256": "d4a3547e7155467ecd12efae5580647f7761b68539ce4486a2b871d45bbe3a8f"
+  },
+  {
+    "source": "~/.codex/skills/base-site-building/SKILL.md",
+    "backup_path": "skills/.codex/skills/base-site-building/SKILL.md",
+    "bytes": 22013,
+    "sha256": "6d299fc4b8ce31d95057c44c07a1ac91bccc9c5c3791339636d6a17472141008"
+  },
+  {
+    "source": "~/.codex/skills/benchmark-base-make/SKILL.md",
+    "backup_path": "skills/.codex/skills/benchmark-base-make/SKILL.md",
+    "bytes": 6718,
+    "sha256": "a3280f433870f6e8ccf0386dde55427d526e7ceed04726d0e6c4b54efb722734"
+  },
+  {
+    "source": "~/.codex/skills/benchmark-gold-make/SKILL.md",
+    "backup_path": "skills/.codex/skills/benchmark-gold-make/SKILL.md",
+    "bytes": 7364,
+    "sha256": "c9eed18f06d9ac2361099d85078602d967e1537a21e26282987e375e3feddf43"
+  },
+  {
+    "source": "~/.codex/skills/benchmark-sample-verify/SKILL.md",
+    "backup_path": "skills/.codex/skills/benchmark-sample-verify/SKILL.md",
+    "bytes": 8025,
+    "sha256": "674f6f5336567767cea7b4cad490ca8e3ec9f0ad728af99ae7c146e4970fe3a2"
+  },
+  {
+    "source": "~/.codex/skills/bilibili-favorites-organizer/SKILL.md",
+    "backup_path": "skills/.codex/skills/bilibili-favorites-organizer/SKILL.md",
+    "bytes": 8162,
+    "sha256": "fc754b69497b563082bb7c1452acb62dcd379deccb9c450d9ba2ddc2844f70a3"
+  },
+  {
+    "source": "~/.codex/skills/bilibili-favorites-triage/SKILL.md",
+    "backup_path": "skills/.codex/skills/bilibili-favorites-triage/SKILL.md",
+    "bytes": 4882,
+    "sha256": "8d00ad85db4064dae621e6664de1474bfc9d5a81416e07826af2260d7eef4694"
+  },
+  {
+    "source": "~/.codex/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "backup_path": "skills/.codex/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "bytes": 7820,
+    "sha256": "ac1ddff679e6360783e9c4a9cbc4d51e2fe9733a23c8fb04f33c22a9136da5e9"
+  },
+  {
+    "source": "~/.codex/skills/codex-app-threads/SKILL.md",
+    "backup_path": "skills/.codex/skills/codex-app-threads/SKILL.md",
+    "bytes": 4378,
+    "sha256": "43765120daf6ac8e3318f9ba28ad2e904aedb8f143055f90c247458bea44b5e4"
+  },
+  {
+    "source": "~/.codex/skills/codex-computer-use/SKILL.md",
+    "backup_path": "skills/.codex/skills/codex-computer-use/SKILL.md",
+    "bytes": 2115,
+    "sha256": "e023c6bb71a0e6e60d1a0e5af7f53c0dd539e8f63301c890986511088faeb612"
+  },
+  {
+    "source": "~/.codex/skills/codex-in-app-browser/SKILL.md",
+    "backup_path": "skills/.codex/skills/codex-in-app-browser/SKILL.md",
+    "bytes": 2223,
+    "sha256": "27d871c73fb2fe360756b4b1f34214e9010a680e824c28c8e660a01bed5a7b7f"
+  },
+  {
+    "source": "~/.codex/skills/codex-router-media/SKILL.md",
+    "backup_path": "skills/.codex/skills/codex-router-media/SKILL.md",
+    "bytes": 3114,
+    "sha256": "cc2d2af346e4af7fe3b80e6201df78ac342f56ddb91632680a6d1d6699aa5282"
+  },
+  {
+    "source": "~/.codex/skills/codex-router/SKILL.md",
+    "backup_path": "skills/.codex/skills/codex-router/SKILL.md",
+    "bytes": 5691,
+    "sha256": "31a2ff2a27a3a5f7810e8abb81aac5e320a94da8d0c2a66736e17c2765af37d1"
+  },
+  {
+    "source": "~/.codex/skills/connect-coconut-to-codex/SKILL.md",
+    "backup_path": "skills/.codex/skills/connect-coconut-to-codex/SKILL.md",
+    "bytes": 6288,
+    "sha256": "d72f9dc113b7dc7eed2eb9fc5665c1fe45de77e863a54ea2bea3f8517407f240"
+  },
+  {
+    "source": "~/.codex/skills/dashboard-eval-annotator/SKILL.md",
+    "backup_path": "skills/.codex/skills/dashboard-eval-annotator/SKILL.md",
+    "bytes": 4616,
+    "sha256": "c6f53b03423a316ab18250508e06a1fdbf7ba112a3b88186240208d5f4114c7e"
+  },
+  {
+    "source": "~/.codex/skills/doubao-eval-chrome/SKILL.md",
+    "backup_path": "skills/.codex/skills/doubao-eval-chrome/SKILL.md",
+    "bytes": 5491,
+    "sha256": "74d28271c5a6403ec9146fa9aa6bcd0cc3811c1ec016c427496711737ae34632"
+  },
+  {
+    "source": "~/.codex/skills/douyin-favorites-organizer/SKILL.md",
+    "backup_path": "skills/.codex/skills/douyin-favorites-organizer/SKILL.md",
+    "bytes": 7545,
+    "sha256": "c2a663c99cbe7d7cb94a116a40955a021faf9be03e7d4743c90f759093ad4d60"
+  },
+  {
+    "source": "~/.codex/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.codex/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "bytes": 11474,
+    "sha256": "463c0bdb58eeb42adafa97da9786859040cd927c82b810c4b37e430152fa5bda"
+  },
+  {
+    "source": "~/.codex/skills/fireworks-tech-graph/SKILL.md",
+    "backup_path": "skills/.codex/skills/fireworks-tech-graph/SKILL.md",
+    "bytes": 32478,
+    "sha256": "fcb6ea52730af1f42f4746356809994a6b5e5fdad03f18711a7b835d6849da67"
+  },
+  {
+    "source": "~/.codex/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.codex/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
+  },
+  {
+    "source": "~/.codex/skills/htmlbox-style/SKILL.md",
+    "backup_path": "skills/.codex/skills/htmlbox-style/SKILL.md",
+    "bytes": 5920,
+    "sha256": "627f61ff9d294c91db2fe30ab787f39a7999ab6a1c8c23e0bd5ba038e55e08e9"
+  },
+  {
+    "source": "~/.codex/skills/lark-base-reader/SKILL.md",
+    "backup_path": "skills/.codex/skills/lark-base-reader/SKILL.md",
+    "bytes": 5535,
+    "sha256": "81d8c8e69fa985009bf008c147364bd968476c2e9fb14067649615d9a91532dc"
+  },
+  {
+    "source": "~/.codex/skills/lark-base-record-reader/SKILL.md",
+    "backup_path": "skills/.codex/skills/lark-base-record-reader/SKILL.md",
+    "bytes": 3272,
+    "sha256": "b4d8658e3eeaab6681ac27ddf733acc3e3fc4e5aa9897b9b49f461eb8aa66246"
+  },
+  {
+    "source": "~/.codex/skills/lieflat-less-ai-tone/SKILL.md",
+    "backup_path": "skills/.codex/skills/lieflat-less-ai-tone/SKILL.md",
+    "bytes": 27856,
+    "sha256": "fae729fd94273517d793e6c4c31b05a66b39b962bf4bb146459020c84c3e7c8f"
   },
   {
     "source": "/Users/gaojing/.codex/skills/openclaw-install-assistant/SKILL.md",
@@ -324,10 +924,232 @@
     "sha256": "8e0ab4e3eaa074f547767ba554dfa9da602e7cfbb3866ace0bdf93b8f1d7127c"
   },
   {
+    "source": "~/.codex/skills/skillmgr/SKILL.md",
+    "backup_path": "skills/.codex/skills/skillmgr/SKILL.md",
+    "bytes": 8363,
+    "sha256": "f3302d831019d1ac02935b501f8bbfadff888cfd896d051e0a1e289bd28714c5"
+  },
+  {
     "source": "/Users/gaojing/.codex/skills/ui-ux-pro-max/SKILL.md",
     "backup_path": "skills/.codex/skills/ui-ux-pro-max/SKILL.md",
     "bytes": 44776,
     "sha256": "9bd26c52dfd10dfd613dd3cc85df217dc25a172e380bde41fdfa6fedda288b2a"
+  },
+  {
+    "source": "~/.codex/skills/voice-form-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.codex/skills/voice-form-evaluation-annotator/SKILL.md",
+    "bytes": 9022,
+    "sha256": "12c48072e6cba068a18f80237677ae6bf33e32fa8ccde5726dcbac57b0be5b6f"
+  },
+  {
+    "source": "~/.codex/skills/vps-forge/SKILL.md",
+    "backup_path": "skills/.codex/skills/vps-forge/SKILL.md",
+    "bytes": 18585,
+    "sha256": "b575f0f2793670b7db4ca9ec3acfc3852a4e3e47fe2bdf569e7696ff3f44de2b"
+  },
+  {
+    "source": "~/.codex/skills/whiteboard-style/SKILL.md",
+    "backup_path": "skills/.codex/skills/whiteboard-style/SKILL.md",
+    "bytes": 6272,
+    "sha256": "fee6c1581a944407928d6941dbed37536f7f9d4ad93c54566f1cb2b98811516a"
+  },
+  {
+    "source": "~/.codex/skills/write-spec/SKILL.md",
+    "backup_path": "skills/.codex/skills/write-spec/SKILL.md",
+    "bytes": 12326,
+    "sha256": "ca6670913878b4ac4582727562bfced5271492a5a800d934f68c9e7bc1cd4dcc"
+  },
+  {
+    "source": "~/.codex/skills/x-tweet-get/SKILL.md",
+    "backup_path": "skills/.codex/skills/x-tweet-get/SKILL.md",
+    "bytes": 3829,
+    "sha256": "a37bd83750a6dea6a3769c127a31c9e03006548c88dcd7ffbfbe8dd24e0daca8"
+  },
+  {
+    "source": "~/.codex/skills/xhs-post-read/SKILL.md",
+    "backup_path": "skills/.codex/skills/xhs-post-read/SKILL.md",
+    "bytes": 1349,
+    "sha256": "92f9748cce784cccd61ac2e9a1ef5ef2c1d5c83eea577d404f3429a210f4635c"
+  },
+  {
+    "source": "~/.config/crush/skills/ego-browser/SKILL.md",
+    "backup_path": "skills/.config/crush/skills/ego-browser/SKILL.md",
+    "bytes": 1733,
+    "sha256": "45784c308641ee6eedd1f853baf8041259f2474481d2ee18c5f8d649fcd7f7d4"
+  },
+  {
+    "source": "~/.gemini/config/skills/ego-browser/SKILL.md",
+    "backup_path": "skills/.gemini/config/skills/ego-browser/SKILL.md",
+    "bytes": 1733,
+    "sha256": "45784c308641ee6eedd1f853baf8041259f2474481d2ee18c5f8d649fcd7f7d4"
+  },
+  {
+    "source": "~/.gemini/config/skills/figma-build/SKILL.md",
+    "backup_path": "skills/.gemini/config/skills/figma-build/SKILL.md",
+    "bytes": 7894,
+    "sha256": "fc7e2b43a5bf2617a70c85f226657a8344122bd54cd0e294e5e0b04c4da36135"
+  },
+  {
+    "source": "~/.gemini/config/skills/figma-codegen/SKILL.md",
+    "backup_path": "skills/.gemini/config/skills/figma-codegen/SKILL.md",
+    "bytes": 16426,
+    "sha256": "21b16e65535611e7c28c2c2987f606b030d334bb318243c2999abb14981262b9"
+  },
+  {
+    "source": "~/.local/share/agent-skills/.disabled/codex/ip-as-logo-skill/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/.disabled/codex/ip-as-logo-skill/SKILL.md",
+    "bytes": 16205,
+    "sha256": "9c2ed4fdaf854415a273c068e4c76f6690f331a033ba7462e4e05219ae9c3ac6"
+  },
+  {
+    "source": "~/.local/share/agent-skills/.disabled/codex/spec-driven-development/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/.disabled/codex/spec-driven-development/SKILL.md",
+    "bytes": 9421,
+    "sha256": "b6ac1e2679ba1b69d1e57079c71b56bf6be7f8df433fa2bc2ac503ef17b234c0"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 5639,
+    "sha256": "af19e8a8ca58a355f44d9901f7ee26430c30241cfb201cde839ad7fe3c7decdd"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/benchmark-gold-make/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/benchmark-gold-make/SKILL.md",
+    "bytes": 7364,
+    "sha256": "c9eed18f06d9ac2361099d85078602d967e1537a21e26282987e375e3feddf43"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/brand-guidelines/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/brand-guidelines/SKILL.md",
+    "bytes": 2235,
+    "sha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/bytetech-article-reader/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/bytetech-article-reader/SKILL.md",
+    "bytes": 3994,
+    "sha256": "abc82771bde1a670ef4973d0ba99586c255f4cc4f860c84fa42408f68f9c59e3"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/dashboard-eval-annotator/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/dashboard-eval-annotator/SKILL.md",
+    "bytes": 4616,
+    "sha256": "c6f53b03423a316ab18250508e06a1fdbf7ba112a3b88186240208d5f4114c7e"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "bytes": 11474,
+    "sha256": "463c0bdb58eeb42adafa97da9786859040cd927c82b810c4b37e430152fa5bda"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/frontend-design/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/frontend-design/SKILL.md",
+    "bytes": 4440,
+    "sha256": "b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/frontend-skill/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/frontend-skill/SKILL.md",
+    "bytes": 7671,
+    "sha256": "d367b2d22825d74c169475507e7ff109b81c1e9c20b2de3421fb19fcfbe3329b"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/hostplan-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/hostplan-evaluation-annotator/SKILL.md",
+    "bytes": 8428,
+    "sha256": "fec0d229ea2f305c0b34d6ca163bea9ecf9c4b8319d6b5e522bce85ebf802ddc"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/image-to-ui-terms/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/image-to-ui-terms/SKILL.md",
+    "bytes": 2950,
+    "sha256": "cd3404ea8bb63d4ff021213fc3826d61d9debb263c09f4695136e9baabab17d6"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/lark-base-schema-auditor/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/lark-base-schema-auditor/SKILL.md",
+    "bytes": 8711,
+    "sha256": "612ead2e1c10a6d50ae88255dfd202511d892c301c8aaee0e83ef2fd6753794d"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/lark-eval-accuracy/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/lark-eval-accuracy/SKILL.md",
+    "bytes": 8527,
+    "sha256": "5f2a6a9db2594b0dcbd570f09eae92ee06f2837b4f9317e8a445c610b13dc18c"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/linuxdo-article-archiver/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/linuxdo-article-archiver/SKILL.md",
+    "bytes": 6402,
+    "sha256": "712cebcb924fad681d342c0122cb8326c2b6e5c61d820f88bfa7bc684baf589e"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/llm-wiki-builder/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/llm-wiki-builder/SKILL.md",
+    "bytes": 1700,
+    "sha256": "4995668b9411a209417d97c78c050e921e631838e995ffcc01430a34e9a53575"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/llm-wiki-init/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/llm-wiki-init/SKILL.md",
+    "bytes": 5572,
+    "sha256": "60a37bde61ddd4b4239d500ff8fefa011a3f8487e68d6448f373d773a80b8f65"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/llm-wiki/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/llm-wiki/SKILL.md",
+    "bytes": 1220,
+    "sha256": "fd128b340830951b742274f004daec04588232e4673239ddc1a939c6644c1998"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/playwright-cli/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/playwright-cli/SKILL.md",
+    "bytes": 11869,
+    "sha256": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/security-best-practices/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/security-best-practices/SKILL.md",
+    "bytes": 8612,
+    "sha256": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/spec-driven-development/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/spec-driven-development/SKILL.md",
+    "bytes": 9421,
+    "sha256": "b6ac1e2679ba1b69d1e57079c71b56bf6be7f8df433fa2bc2ac503ef17b234c0"
+  },
+  {
+    "source": "~/.local/share/agent-skills/skills/web-design-guidelines/SKILL.md",
+    "backup_path": "skills/.local/share/agent-skills/skills/web-design-guidelines/SKILL.md",
+    "bytes": 1231,
+    "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
   },
   {
     "source": "/Users/gaojing/.mavis/.builtin-skills/create-agent/SKILL.md",
@@ -594,6 +1416,504 @@
     "sha256": "8ef8b1083e8715012de6748423b751d9c4859726b9812271547dedf21fa38cdb"
   },
   {
+    "source": "~/.openclaw/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.openclaw/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.openclaw/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.openclaw/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.openclaw/skills/grilling/SKILL.md",
+    "backup_path": "skills/.openclaw/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.openclaw/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.openclaw/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+  },
+  {
+    "source": "~/.pi/agent/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.pi/agent/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.pi/agent/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.pi/agent/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.pi/agent/skills/grilling/SKILL.md",
+    "backup_path": "skills/.pi/agent/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.pi/agent/skills/pi-project-resource-installer/SKILL.md",
+    "backup_path": "skills/.pi/agent/skills/pi-project-resource-installer/SKILL.md",
+    "bytes": 4660,
+    "sha256": "e258f6d80ac02dac37903e90f2fc560d85cc984047deb30815c0f3a153437a38"
+  },
+  {
+    "source": "~/.pi/skills/ip-as-logo/SKILL.md",
+    "backup_path": "skills/.pi/skills/ip-as-logo/SKILL.md",
+    "bytes": 16205,
+    "sha256": "9c2ed4fdaf854415a273c068e4c76f6690f331a033ba7462e4e05219ae9c3ac6"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/create-skill/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/create-skill/SKILL.md",
+    "bytes": 21265,
+    "sha256": "af58bce7e9d3bcce1100ae55f1357f800e58f836bf345a682301de9d1b7abcfc"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-aicard/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-aicard/SKILL.md",
+    "bytes": 10261,
+    "sha256": "25e62db2ccee92eb2e5cc43c1aa44770b8f3da9d82f79db5d636c5ebcfcc32bf"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-aisearch/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-aisearch/SKILL.md",
+    "bytes": 9031,
+    "sha256": "e29dcdd9301f85def72f0ee205ff94acc1b8e7d6308c55b8dfece8a0551b4ee4"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-aitable/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-aitable/SKILL.md",
+    "bytes": 36966,
+    "sha256": "836fd54606ac446fb419afcb5c24cb45afeb96a52f475b8c3e33c41c51ab9698"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-calendar/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-calendar/SKILL.md",
+    "bytes": 13351,
+    "sha256": "5fb2ab1c019e68bd1c49c77a0cf3e67737a64301f44a5c516d1e06cb9dbfd7e7"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-chat/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-chat/SKILL.md",
+    "bytes": 9525,
+    "sha256": "e0f7fe2403d838a8a65359f1c3b7bce0c56b22f1446de24528665d1ab17d5120"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-contact/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-contact/SKILL.md",
+    "bytes": 13895,
+    "sha256": "00dc2a854990d0144323175993fb0e0301594ad8b14643ca6410c6a359c2a32e"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-doc/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-doc/SKILL.md",
+    "bytes": 12086,
+    "sha256": "c46050a9a7450582ce210df2f796db2c05c79c427d984d0a20e5072e3dcc40cd"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-drive/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-drive/SKILL.md",
+    "bytes": 15869,
+    "sha256": "7fc4ebdb69a563c1ed01417e0d497f5bedcae6d9e5894108a227aea2d41258be"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-event/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-event/SKILL.md",
+    "bytes": 10080,
+    "sha256": "640deb74a70540d26f76f948e63abfc4ffc6c9f524ebd1912c7831143a61fb64"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-mail/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-mail/SKILL.md",
+    "bytes": 9429,
+    "sha256": "ea592db2b393ba8146cef93e5d578685aa068130da01c9705dfca3d4bbab4411"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-minutes/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-minutes/SKILL.md",
+    "bytes": 16587,
+    "sha256": "80d211e89d9180e9f9d0364a6c2b7cdd44af1d61969753375e103e4d84f05ca7"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-misc/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-misc/SKILL.md",
+    "bytes": 23998,
+    "sha256": "7ab1fbd63be562569cdd8a0e7b54c242766179acc5416636d2b56a7ffae8f867"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-shared/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-shared/SKILL.md",
+    "bytes": 7002,
+    "sha256": "2f84bb60be18f3496459020b1e9908708ff1d28aaaa1f7e1685651f6289021f9"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-tag/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-tag/SKILL.md",
+    "bytes": 7777,
+    "sha256": "346e67acf65c611cdf8bd3b83ba42cfda0fcb8a71925fa814a7392f4b270c0d7"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-todo/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-todo/SKILL.md",
+    "bytes": 11749,
+    "sha256": "9c23171458c13711258fbaa1a01113e8b9b04ecf22c197c6c4edf09b6906acf7"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/dingtalk-wiki/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/dingtalk-wiki/SKILL.md",
+    "bytes": 13938,
+    "sha256": "2e77679acf60a65c146271810b981a923804402d129f672ad752467e1153cd99"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/docx/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/docx/SKILL.md",
+    "bytes": 7699,
+    "sha256": "070c6bea5920792dc32c9258887aafb9ff9649170f2aa8dcdb63361fe98dab73"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/environment-packages/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/environment-packages/SKILL.md",
+    "bytes": 7651,
+    "sha256": "7fada3348d7cecb4fcf4856aaaa8815d233d2881f73bbd8e833c9748d692d71f"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/find-skills/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/find-skills/SKILL.md",
+    "bytes": 24343,
+    "sha256": "257f3a0d417b19f9b6f505481edbb525cbaac46fa344116e9593b5f9636c55ea"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/media-generation-ecommerce/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/media-generation-ecommerce/SKILL.md",
+    "bytes": 27018,
+    "sha256": "dd0ee0c802961c07ddc0df2605405bfcf31a182e4727cdf805221c3fdbfc245a"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/media-generation-premium/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/media-generation-premium/SKILL.md",
+    "bytes": 9579,
+    "sha256": "82fa60392f21e0bbbcea5168793a7a9b65c9bfce523dc0fcb9718e35423b2772"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/media-generation/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/media-generation/SKILL.md",
+    "bytes": 13369,
+    "sha256": "640ba20bf125ff4d5a6adcd05048c1ef8182ca00b8d3c282972c4a725c316906"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/media-read/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/media-read/SKILL.md",
+    "bytes": 1327,
+    "sha256": "e8a1d1b85190c0b601c91609193d88559f0fbc1957ec971b36fedc296ae20ca2"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/pdf/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/pdf/SKILL.md",
+    "bytes": 25914,
+    "sha256": "56e567361709d778d770d8e238dfdc9e50351afa1454c69cb9c34b58cb1a623d"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/plugin-creator/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/plugin-creator/SKILL.md",
+    "bytes": 43162,
+    "sha256": "a4be383a5c2f52b9191af1606ff29fa9290e88a1322d95b39f0e5a792af42765"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/pptx/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/pptx/SKILL.md",
+    "bytes": 29878,
+    "sha256": "f91ab998e452037e2c56c06e2444d899acf9bc14cf240a62ab93c485d65c836f"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/qw-pages-supabase/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/qw-pages-supabase/SKILL.md",
+    "bytes": 2029,
+    "sha256": "bb42f30464d228206b790df6ead004631fc49dfb32740bc20d6be6f9b3b25b7c"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/qw-pages/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/qw-pages/SKILL.md",
+    "bytes": 6459,
+    "sha256": "acb1cf37d74786c3e59adfb3fced58f8d54c1168b4e94242f513938509affe7d"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/qwenwork-guidance/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/qwenwork-guidance/SKILL.md",
+    "bytes": 23295,
+    "sha256": "ec5edc79309621947ab9145a12849a1401505b2138b7f786728f9d4f294e8f7b"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/web-search/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/web-search/SKILL.md",
+    "bytes": 1056,
+    "sha256": "8c6e10a53d4816213fa09e9718ad14f45d12b998fe7180b36b2afaa77ed492ce"
+  },
+  {
+    "source": "~/.qwenworkcn/skills/xlsx/SKILL.md",
+    "backup_path": "skills/.qwenworkcn/skills/xlsx/SKILL.md",
+    "bytes": 9501,
+    "sha256": "68bb343e79f5380b0eaa0c645b269d36e64071709bea0aec9566c20951eb704e"
+  },
+  {
+    "source": "~/.trae-cn/skills/adaptive-skill-creator-0813/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/adaptive-skill-creator-0813/SKILL.md",
+    "bytes": 5709,
+    "sha256": "1774966af02e21ed46076359bcb1fcc4432fd7ebe146d10dcc7799d25b0a4f61"
+  },
+  {
+    "source": "~/.trae-cn/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 5639,
+    "sha256": "af19e8a8ca58a355f44d9901f7ee26430c30241cfb201cde839ad7fe3c7decdd"
+  },
+  {
+    "source": "~/.trae-cn/skills/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/anti-defensive-writing/SKILL.md",
+    "bytes": 6459,
+    "sha256": "dd6b4140d27e89931ee7512320cf8448ff2f35e9bd7f4d80aa902e0d5c9ae913"
+  },
+  {
+    "source": "~/.trae-cn/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "bytes": 6458,
+    "sha256": "d4a3547e7155467ecd12efae5580647f7761b68539ce4486a2b871d45bbe3a8f"
+  },
+  {
+    "source": "~/.trae-cn/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "bytes": 6210,
+    "sha256": "8c5b10f4c36780e8988cbf94d21c8f47b49dd45abc4bbab2eca35024403a5fe3"
+  },
+  {
+    "source": "~/.trae-cn/skills/brand-guidelines/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/brand-guidelines/SKILL.md",
+    "bytes": 2235,
+    "sha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+  },
+  {
+    "source": "~/.trae-cn/skills/bytetech-article-reader/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/bytetech-article-reader/SKILL.md",
+    "bytes": 3994,
+    "sha256": "abc82771bde1a670ef4973d0ba99586c255f4cc4f860c84fa42408f68f9c59e3"
+  },
+  {
+    "source": "~/.trae-cn/skills/change-note-checker/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/change-note-checker/SKILL.md",
+    "bytes": 6467,
+    "sha256": "c3688d6b602714fe0e9933509a131555cd58fc66ef24f7bd890ba6c5cd6a46c5"
+  },
+  {
+    "source": "~/.trae-cn/skills/chart-visualization/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/chart-visualization/SKILL.md",
+    "bytes": 3355,
+    "sha256": "76cd9fe631b8d5961117e6a345732908b071ed3ac071b69af0f2fc1253ec8aa1"
+  },
+  {
+    "source": "~/.trae-cn/skills/dashboard-eval-annotator/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/dashboard-eval-annotator/SKILL.md",
+    "bytes": 4616,
+    "sha256": "c6f53b03423a316ab18250508e06a1fdbf7ba112a3b88186240208d5f4114c7e"
+  },
+  {
+    "source": "~/.trae-cn/skills/ego-browser/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/ego-browser/SKILL.md",
+    "bytes": 1733,
+    "sha256": "45784c308641ee6eedd1f853baf8041259f2474481d2ee18c5f8d649fcd7f7d4"
+  },
+  {
+    "source": "~/.trae-cn/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "bytes": 7320,
+    "sha256": "0c72519f9b5ba2776dd2bb9b2ae3ef335b7acc7fc3e0d23f5040f868757207ba"
+  },
+  {
+    "source": "~/.trae-cn/skills/frontend-design/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/frontend-design/SKILL.md",
+    "bytes": 4440,
+    "sha256": "b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0"
+  },
+  {
+    "source": "~/.trae-cn/skills/frontend-skill/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/frontend-skill/SKILL.md",
+    "bytes": 7671,
+    "sha256": "d367b2d22825d74c169475507e7ff109b81c1e9c20b2de3421fb19fcfbe3329b"
+  },
+  {
+    "source": "~/.trae-cn/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
+  },
+  {
+    "source": "~/.trae-cn/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.trae-cn/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.trae-cn/skills/grilling/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.trae-cn/skills/hostplan-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/hostplan-evaluation-annotator/SKILL.md",
+    "bytes": 8428,
+    "sha256": "fec0d229ea2f305c0b34d6ca163bea9ecf9c4b8319d6b5e522bce85ebf802ddc"
+  },
+  {
+    "source": "~/.trae-cn/skills/image-to-ui-terms/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/image-to-ui-terms/SKILL.md",
+    "bytes": 2950,
+    "sha256": "cd3404ea8bb63d4ff021213fc3826d61d9debb263c09f4695136e9baabab17d6"
+  },
+  {
+    "source": "~/.trae-cn/skills/lark-base-reader/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/lark-base-reader/SKILL.md",
+    "bytes": 5535,
+    "sha256": "81d8c8e69fa985009bf008c147364bd968476c2e9fb14067649615d9a91532dc"
+  },
+  {
+    "source": "~/.trae-cn/skills/lark-eval-accuracy/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/lark-eval-accuracy/SKILL.md",
+    "bytes": 8527,
+    "sha256": "5f2a6a9db2594b0dcbd570f09eae92ee06f2837b4f9317e8a445c610b13dc18c"
+  },
+  {
+    "source": "~/.trae-cn/skills/ponytail/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/ponytail/SKILL.md",
+    "bytes": 3496,
+    "sha256": "9badd22a32e19cb884e46dfa8d3aae82bb81dfa5484105b8b4f0262df823a509"
+  },
+  {
+    "source": "~/.trae-cn/skills/security-best-practices/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/security-best-practices/SKILL.md",
+    "bytes": 8612,
+    "sha256": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f"
+  },
+  {
+    "source": "~/.trae-cn/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+  },
+  {
+    "source": "~/.trae-cn/skills/web-design-guidelines/SKILL.md",
+    "backup_path": "skills/.trae-cn/skills/web-design-guidelines/SKILL.md",
+    "bytes": 1231,
+    "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+  },
+  {
+    "source": "~/.trae/skills/adaptive-skill-creator-0813/SKILL.md",
+    "backup_path": "skills/.trae/skills/adaptive-skill-creator-0813/SKILL.md",
+    "bytes": 5709,
+    "sha256": "1774966af02e21ed46076359bcb1fcc4432fd7ebe146d10dcc7799d25b0a4f61"
+  },
+  {
+    "source": "~/.trae/skills/adaptive-skill-creator/SKILL.md",
+    "backup_path": "skills/.trae/skills/adaptive-skill-creator/SKILL.md",
+    "bytes": 5639,
+    "sha256": "af19e8a8ca58a355f44d9901f7ee26430c30241cfb201cde839ad7fe3c7decdd"
+  },
+  {
+    "source": "~/.trae/skills/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.trae/skills/anti-defensive-writing/SKILL.md",
+    "bytes": 6459,
+    "sha256": "dd6b4140d27e89931ee7512320cf8448ff2f35e9bd7f4d80aa902e0d5c9ae913"
+  },
+  {
+    "source": "~/.trae/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "backup_path": "skills/.trae/skills/anti-defensive-writing/skill/anti-defensive-writing/SKILL.md",
+    "bytes": 6458,
+    "sha256": "d4a3547e7155467ecd12efae5580647f7761b68539ce4486a2b871d45bbe3a8f"
+  },
+  {
+    "source": "~/.trae/skills/benchmark-gold-make/SKILL.md",
+    "backup_path": "skills/.trae/skills/benchmark-gold-make/SKILL.md",
+    "bytes": 7364,
+    "sha256": "c9eed18f06d9ac2361099d85078602d967e1537a21e26282987e375e3feddf43"
+  },
+  {
+    "source": "~/.trae/skills/bytetech-article-reader/SKILL.md",
+    "backup_path": "skills/.trae/skills/bytetech-article-reader/SKILL.md",
+    "bytes": 3994,
+    "sha256": "abc82771bde1a670ef4973d0ba99586c255f4cc4f860c84fa42408f68f9c59e3"
+  },
+  {
+    "source": "~/.trae/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "backup_path": "skills/.trae/skills/feishu-table-evaluation-annotator/SKILL.md",
+    "bytes": 7287,
+    "sha256": "9cdd17ca3539c0119f348e86a7cbb9592da742dae11382c453c38d929e975e03"
+  },
+  {
+    "source": "~/.trae/skills/fireworks-tech-graph/SKILL.md",
+    "backup_path": "skills/.trae/skills/fireworks-tech-graph/SKILL.md",
+    "bytes": 32478,
+    "sha256": "fcb6ea52730af1f42f4746356809994a6b5e5fdad03f18711a7b835d6849da67"
+  },
+  {
+    "source": "~/.trae/skills/gh-cli/SKILL.md",
+    "backup_path": "skills/.trae/skills/gh-cli/SKILL.md",
+    "bytes": 40494,
+    "sha256": "18e53a9f4c154406a072ed4cfbc524d40f9a4734ef25102086c1ef5e24113a76"
+  },
+  {
+    "source": "~/.trae/skills/grill-me/SKILL.md",
+    "backup_path": "skills/.trae/skills/grill-me/SKILL.md",
+    "bytes": 147,
+    "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54"
+  },
+  {
+    "source": "~/.trae/skills/grill-with-docs/SKILL.md",
+    "backup_path": "skills/.trae/skills/grill-with-docs/SKILL.md",
+    "bytes": 245,
+    "sha256": "610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+  },
+  {
+    "source": "~/.trae/skills/grilling/SKILL.md",
+    "backup_path": "skills/.trae/skills/grilling/SKILL.md",
+    "bytes": 1872,
+    "sha256": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  {
+    "source": "~/.trae/skills/ip-as-logo/SKILL.md",
+    "backup_path": "skills/.trae/skills/ip-as-logo/SKILL.md",
+    "bytes": 16205,
+    "sha256": "9c2ed4fdaf854415a273c068e4c76f6690f331a033ba7462e4e05219ae9c3ac6"
+  },
+  {
+    "source": "~/.trae/skills/lark-base-schema-auditor/SKILL.md",
+    "backup_path": "skills/.trae/skills/lark-base-schema-auditor/SKILL.md",
+    "bytes": 8711,
+    "sha256": "612ead2e1c10a6d50ae88255dfd202511d892c301c8aaee0e83ef2fd6753794d"
+  },
+  {
+    "source": "~/.trae/skills/setup-matt-pocock-skills/SKILL.md",
+    "backup_path": "skills/.trae/skills/setup-matt-pocock-skills/SKILL.md",
+    "bytes": 6928,
+    "sha256": "def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+  },
+  {
+    "source": "~/.workbuddy/skills/ego-browser/SKILL.md",
+    "backup_path": "skills/.workbuddy/skills/ego-browser/SKILL.md",
+    "bytes": 1733,
+    "sha256": "45784c308641ee6eedd1f853baf8041259f2474481d2ee18c5f8d649fcd7f7d4"
+  },
+  {
     "source": "/Users/gaojing/Desktop/catpaw_desk/.catpaw/skills/skills-market/citadel-database/SKILL.md",
     "backup_path": "skills/Desktop/catpaw_desk/.catpaw/skills/skills-market/citadel-database/SKILL.md",
     "bytes": 18038,
@@ -732,6 +2052,210 @@
     "sha256": "651c1d6f8a8a4d14485d97022b65966b81629357cf1050aeb6b22cf620add83e"
   },
   {
+    "source": "~/Desktop/mock-project/.agents/skills/api-contract-review/SKILL.md",
+    "backup_path": "skills/Desktop/mock-project/.agents/skills/api-contract-review/SKILL.md",
+    "bytes": 718,
+    "sha256": "f043de262eb0aa7f12e4f8d3838372bf5b7e6f076f6ad9a36a94fc1171886761"
+  },
+  {
+    "source": "~/Desktop/mock-project/.agents/skills/code-change-verification/SKILL.md",
+    "backup_path": "skills/Desktop/mock-project/.agents/skills/code-change-verification/SKILL.md",
+    "bytes": 792,
+    "sha256": "20393bcab77fecf0541d1b8fc55fa47b8f44019e53e62682e07697a0b38c6e56"
+  },
+  {
+    "source": "~/Desktop/temp/.agents/skills/bytetech-article-reader/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.agents/skills/bytetech-article-reader/SKILL.md",
+    "bytes": 4106,
+    "sha256": "a64c31c3b84c3e0fae2b69cd987cc8a1855942963bcd45a411413ff3c876ebc7"
+  },
+  {
+    "source": "~/Desktop/temp/.agents/skills/lark-base-reader/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.agents/skills/lark-base-reader/SKILL.md",
+    "bytes": 4728,
+    "sha256": "e5acf603957bab26e4c9e87037ebb20c23f1055e3e9fd2224f032ec4c50dd5f2"
+  },
+  {
+    "source": "~/Desktop/temp/.agents/skills/llm-wiki-builder/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.agents/skills/llm-wiki-builder/SKILL.md",
+    "bytes": 3251,
+    "sha256": "5dfedeb575370abcaa91611e525ca062f80e1f8cd208dc03abdc2d10f79b581f"
+  },
+  {
+    "source": "~/Desktop/temp/.agents/skills/wiki-source-normalizer/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.agents/skills/wiki-source-normalizer/SKILL.md",
+    "bytes": 5791,
+    "sha256": "77585d7317e165f9eb568e6782d35b1b37852dc3b355540084829357824a2893"
+  },
+  {
+    "source": "~/Desktop/temp/.trae/skills/doubao-eval/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.trae/skills/doubao-eval/SKILL.md",
+    "bytes": 10993,
+    "sha256": "ceee75fa5aed6484086bc0782a1d01c1ebc84d68e88c089cd847b1f090975179"
+  },
+  {
+    "source": "~/Desktop/temp/.trae/skills/lark-base-property-extractor/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.trae/skills/lark-base-property-extractor/SKILL.md",
+    "bytes": 7447,
+    "sha256": "f44bcda8f1c69098ff0648425c9c1bc21edea9d1dc3ad63140dc87cbd5557631"
+  },
+  {
+    "source": "~/Desktop/temp/.trae/skills/lark-base-record-reader/SKILL.md",
+    "backup_path": "skills/Desktop/temp/.trae/skills/lark-base-record-reader/SKILL.md",
+    "bytes": 2609,
+    "sha256": "a05824c805817a3ece5e34c59408356528b400ec531a16be8b021d057c308423"
+  },
+  {
+    "source": "~/Desktop/temp/agent-skill-manager-delivery-2026-06-25/.trae/skills/change-note-checker/SKILL.md",
+    "backup_path": "skills/Desktop/temp/agent-skill-manager-delivery-2026-06-25/.trae/skills/change-note-checker/SKILL.md",
+    "bytes": 7593,
+    "sha256": "7372b53e792921f82029143fc03dad26347fb5eaa878b765f23fa8597c230e1d"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/codex-e2e-test/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/codex-e2e-test/SKILL.md",
+    "bytes": 12153,
+    "sha256": "af73a97cbe449e9a7fcc5acba234abe14255f1c30f9222f641c83b90b7eb411f"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/demo-video/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/demo-video/SKILL.md",
+    "bytes": 2192,
+    "sha256": "fe85bc9245efa04b3766409602c5e0462b228f978c390ccc3dc7eabe4fafb699"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/e2e-test/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/e2e-test/SKILL.md",
+    "bytes": 1464,
+    "sha256": "60f53b2d388e0edb4b652730c14bf7bc1c321e44cf6276155419019087df06af"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/js-in-html-testing/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/js-in-html-testing/SKILL.md",
+    "bytes": 3702,
+    "sha256": "2ff875004145b1cad4372f48d6779ae37d13ba161c799c8b63c77a0585fad79e"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/legibility-check/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/legibility-check/SKILL.md",
+    "bytes": 2255,
+    "sha256": "8a3edb8394bee250a75fed42b2af066591defcc36bd1d90c1c6f151cb2539a89"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/playwright-screen-recording/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/playwright-screen-recording/SKILL.md",
+    "bytes": 2860,
+    "sha256": "6c4f5c2eea6d4b5be98d361292ab34d73082acfe2c7913195af7cf8e8a4842db"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/pr-preflight/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/pr-preflight/SKILL.md",
+    "bytes": 2476,
+    "sha256": "20619674b07d0d311e8bdf3b23ea2bd0f65a49c1dfd0d96993e6d03e08b2b0f3"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/push-release/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/push-release/SKILL.md",
+    "bytes": 2050,
+    "sha256": "665e5b223dd236708ae87809e5fa6262b403fe802164ab61fadf8af9eb9eba0d"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/real-e2e-test/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/real-e2e-test/SKILL.md",
+    "bytes": 2771,
+    "sha256": "9fec704a2ff16d955c7bfac8d98e9c128693dfacb41ecc09f66f338941dc2088"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/screenshot-validation/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/screenshot-validation/SKILL.md",
+    "bytes": 2870,
+    "sha256": "23311cb5e711d7e69100a64fca4be23d4335a44fb87733dee56726f8c36a8dec"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.agents/skills/translate-i18n/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.agents/skills/translate-i18n/SKILL.md",
+    "bytes": 2664,
+    "sha256": "0fbece0947fd5792e073fdaf0ed74d6ef8efa3a3b644335c2d4c1110ad6bdb4e"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/codex-e2e-test/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/codex-e2e-test/SKILL.md",
+    "bytes": 12153,
+    "sha256": "af73a97cbe449e9a7fcc5acba234abe14255f1c30f9222f641c83b90b7eb411f"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/demo-video/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/demo-video/SKILL.md",
+    "bytes": 2192,
+    "sha256": "fe85bc9245efa04b3766409602c5e0462b228f978c390ccc3dc7eabe4fafb699"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/e2e-test/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/e2e-test/SKILL.md",
+    "bytes": 1464,
+    "sha256": "60f53b2d388e0edb4b652730c14bf7bc1c321e44cf6276155419019087df06af"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/js-in-html-testing/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/js-in-html-testing/SKILL.md",
+    "bytes": 3702,
+    "sha256": "2ff875004145b1cad4372f48d6779ae37d13ba161c799c8b63c77a0585fad79e"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/legibility-check/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/legibility-check/SKILL.md",
+    "bytes": 2255,
+    "sha256": "8a3edb8394bee250a75fed42b2af066591defcc36bd1d90c1c6f151cb2539a89"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/playwright-screen-recording/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/playwright-screen-recording/SKILL.md",
+    "bytes": 2860,
+    "sha256": "6c4f5c2eea6d4b5be98d361292ab34d73082acfe2c7913195af7cf8e8a4842db"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/pr-preflight/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/pr-preflight/SKILL.md",
+    "bytes": 2476,
+    "sha256": "20619674b07d0d311e8bdf3b23ea2bd0f65a49c1dfd0d96993e6d03e08b2b0f3"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/push-release/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/push-release/SKILL.md",
+    "bytes": 2050,
+    "sha256": "665e5b223dd236708ae87809e5fa6262b403fe802164ab61fadf8af9eb9eba0d"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/real-e2e-test/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/real-e2e-test/SKILL.md",
+    "bytes": 2771,
+    "sha256": "9fec704a2ff16d955c7bfac8d98e9c128693dfacb41ecc09f66f338941dc2088"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/screenshot-validation/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/screenshot-validation/SKILL.md",
+    "bytes": 2870,
+    "sha256": "23311cb5e711d7e69100a64fca4be23d4335a44fb87733dee56726f8c36a8dec"
+  },
+  {
+    "source": "~/Desktop/temp/claude-tap/.claude/skills/translate-i18n/SKILL.md",
+    "backup_path": "skills/Desktop/temp/claude-tap/.claude/skills/translate-i18n/SKILL.md",
+    "bytes": 2664,
+    "sha256": "0fbece0947fd5792e073fdaf0ed74d6ef8efa3a3b644335c2d4c1110ad6bdb4e"
+  },
+  {
+    "source": "~/Desktop/temp/obsidian-llm-wiki-scaffold/.agents/skills/llm-wiki-builder/SKILL.md",
+    "backup_path": "skills/Desktop/temp/obsidian-llm-wiki-scaffold/.agents/skills/llm-wiki-builder/SKILL.md",
+    "bytes": 666,
+    "sha256": "70cab6150d6e2dd09c0fa0d0e43adb96ec7a56a9345390e38f1d1e8e0296e98c"
+  },
+  {
+    "source": "~/Desktop/temp/obsidian-llm-wiki-scaffold/.agents/skills/llm-wiki/SKILL.md",
+    "backup_path": "skills/Desktop/temp/obsidian-llm-wiki-scaffold/.agents/skills/llm-wiki/SKILL.md",
+    "bytes": 1220,
+    "sha256": "fd128b340830951b742274f004daec04588232e4673239ddc1a939c6644c1998"
+  },
+  {
     "source": "/Users/gaojing/Desktop/我的文档/best-skill-creator-zh/SKILL.md",
     "backup_path": "skills/Desktop/我的文档/best-skill-creator-zh/SKILL.md",
     "bytes": 9211,
@@ -750,9 +2274,117 @@
     "sha256": "d34504a387ab36f68d712a249f036404cf4976804e53833615fca975a879d47b"
   },
   {
+    "source": "~/Documents/ChatGPT/base_auto_evaluation/.agents/skills/base-auto-evaluation/SKILL.md",
+    "backup_path": "skills/Documents/ChatGPT/base_auto_evaluation/.agents/skills/base-auto-evaluation/SKILL.md",
+    "bytes": 4302,
+    "sha256": "9f3e6830230ccb130fa3da3f2bc1ed2ae9b3be798c8a1fcc30db4bb75289b165"
+  },
+  {
+    "source": "~/Documents/Codex/2026-07-17/du/.agents/skills/llm-wiki-builder/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-07-17/du/.agents/skills/llm-wiki-builder/SKILL.md",
+    "bytes": 508,
+    "sha256": "e96116e548fa1e1a3b02fb7fe26757d2d73f487191847ed20a33d3845fd1bab9"
+  },
+  {
+    "source": "~/Documents/Codex/2026-07-17/du/.agents/skills/llm-wiki/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-07-17/du/.agents/skills/llm-wiki/SKILL.md",
+    "bytes": 782,
+    "sha256": "e8d190897cc820c532572a5e2950037c0ce90ddd5007bac24de1058981d13273"
+  },
+  {
+    "source": "~/Documents/Codex/2026-08-24/https-www-bilibili-com-video-bv1bdg66ce7d/.pi/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-08-24/https-www-bilibili-com-video-bv1bdg66ce7d/.pi/skills/bilibili-subtitle-to-markdown/SKILL.md",
+    "bytes": 6210,
+    "sha256": "8c5b10f4c36780e8988cbf94d21c8f47b49dd45abc4bbab2eca35024403a5fe3"
+  },
+  {
+    "source": "~/Documents/Codex/2026-11-12/https-github-com-mogu002-rea-https/rea/.agents/skills/rea-changelog-update/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-11-12/https-github-com-mogu002-rea-https/rea/.agents/skills/rea-changelog-update/SKILL.md",
+    "bytes": 7562,
+    "sha256": "d30497ee947ac53e9fc596da41d880e9e6afaf058c79183a1f65e9482b99bb9c"
+  },
+  {
+    "source": "~/Documents/Codex/2026-11-12/https-github-com-mogu002-rea-https/rea/.agents/skills/rea-tool-design/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-11-12/https-github-com-mogu002-rea-https/rea/.agents/skills/rea-tool-design/SKILL.md",
+    "bytes": 956,
+    "sha256": "6023df0f1cdbe9944963469a3f2a1365d55eebdf1a7f4adb33430851f9ee5f14"
+  },
+  {
+    "source": "~/Documents/Codex/2026-11-12/https-github-com-mogu002-rea-https/rea/.agents/skills/reverse-engineer-anything/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-11-12/https-github-com-mogu002-rea-https/rea/.agents/skills/reverse-engineer-anything/SKILL.md",
+    "bytes": 13978,
+    "sha256": "611ec4359d3656695d426d984b6d02ab78501eb9057cd646f0eccead1d695ec3"
+  },
+  {
     "source": "/Users/gaojing/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
     "backup_path": "skills/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
     "bytes": 2518,
     "sha256": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7"
+  },
+  {
+    "source": "~/Documents/Playwright_TEST/.agents/skills/playwright-cli/SKILL.md",
+    "backup_path": "skills/Documents/Playwright_TEST/.agents/skills/playwright-cli/SKILL.md",
+    "bytes": 11869,
+    "sha256": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13"
+  },
+  {
+    "source": "~/Documents/base_agent/.trae/skills/ponytail-audit/SKILL.md",
+    "backup_path": "skills/Documents/base_agent/.trae/skills/ponytail-audit/SKILL.md",
+    "bytes": 1652,
+    "sha256": "5560b8e383dbe2ddfddc873a1e2bf2e586e23e0cd7d995537482b2315331f6d1"
+  },
+  {
+    "source": "~/Documents/base_agent/.trae/skills/ponytail-debt/SKILL.md",
+    "backup_path": "skills/Documents/base_agent/.trae/skills/ponytail-debt/SKILL.md",
+    "bytes": 1703,
+    "sha256": "c84fba75f0ca12bfe83f9a78ea02fd125c5dd3f1fbb18124105a489937f284e6"
+  },
+  {
+    "source": "~/Documents/base_agent/.trae/skills/ponytail-gain/SKILL.md",
+    "backup_path": "skills/Documents/base_agent/.trae/skills/ponytail-gain/SKILL.md",
+    "bytes": 1973,
+    "sha256": "24e01d1c9715cb136ba1c4f1e52a95940c0193558b876828e537736480d6408b"
+  },
+  {
+    "source": "~/Documents/base_agent/.trae/skills/ponytail-help/SKILL.md",
+    "backup_path": "skills/Documents/base_agent/.trae/skills/ponytail-help/SKILL.md",
+    "bytes": 2796,
+    "sha256": "2264d1615117b02b0fd5a69ec84cd2757006471a78e4d6c22eed6d581c1d37a4"
+  },
+  {
+    "source": "~/Documents/base_agent/.trae/skills/ponytail-review/SKILL.md",
+    "backup_path": "skills/Documents/base_agent/.trae/skills/ponytail-review/SKILL.md",
+    "bytes": 2383,
+    "sha256": "40df33b58fc6ef889b93585733feb9566b76e9586efa7f376785c1e995197ac0"
+  },
+  {
+    "source": "~/Documents/base_agent/.trae/skills/ponytail/SKILL.md",
+    "backup_path": "skills/Documents/base_agent/.trae/skills/ponytail/SKILL.md",
+    "bytes": 6707,
+    "sha256": "d1ffcddbc486ab787d5797441e8b6e4717da3249c6786b83fc2abd2f12803c29"
+  },
+  {
+    "source": "~/Tools/figwright-codex-3056/.claude/skills/figma-build/SKILL.md",
+    "backup_path": "skills/Tools/figwright-codex-3056/.claude/skills/figma-build/SKILL.md",
+    "bytes": 7011,
+    "sha256": "810f8c9d2c62162f506d940072a6e9e98d9122595f68de01dab49bdd6f82f487"
+  },
+  {
+    "source": "~/Tools/figwright-codex-3056/.claude/skills/figma-codegen/SKILL.md",
+    "backup_path": "skills/Tools/figwright-codex-3056/.claude/skills/figma-codegen/SKILL.md",
+    "bytes": 14966,
+    "sha256": "b1acd5cb8e965b4ae2ee15f1b7cbf70a82df3a79705165b1af7353153181d8e8"
+  },
+  {
+    "source": "~/Tools/figwright-codex-3056/.claude/skills/figma-typings-audit/SKILL.md",
+    "backup_path": "skills/Tools/figwright-codex-3056/.claude/skills/figma-typings-audit/SKILL.md",
+    "bytes": 13473,
+    "sha256": "9ac1a6d0382219b309ac26f502f6b867751c1c26ee92fb5973969aa048106293"
+  },
+  {
+    "source": "~/Tools/figwright-codex-3056/.claude/skills/mcp-sdk-audit/SKILL.md",
+    "backup_path": "skills/Tools/figwright-codex-3056/.claude/skills/mcp-sdk-audit/SKILL.md",
+    "bytes": 14661,
+    "sha256": "0fe1ab9da01a123a59b00bfcb216431ec370962968b53bf8eda0c8d9d186cf8c"
   }
 ]

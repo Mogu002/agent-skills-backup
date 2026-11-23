@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>旭日图：内环看产品线，外环看训练 / 推理结构</title>
+<script src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: #ffffff; color: #1f2937; }
+  #wrap { width: 100%; padding: 14px 18px 16px; }
+  .hd { padding: 2px 2px 10px; border-bottom: 1px solid #eef1f5; margin-bottom: 6px; }
+  .hd h1 { margin: 0; font-size: 17px; font-weight: 650; color: #111827; letter-spacing: .2px; }
+  .hd p { margin: 6px 0 0; font-size: 12.5px; color: #6b7280; line-height: 1.5; }
+  #chart { width: 100%; height: 400px; }
+  #st { min-height: 20px; font-size: 13px; color: #6b7280; text-align: center; padding: 6px 12px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="hd"><h1>旭日图：内环看产品线，外环看训练 / 推理结构</h1><p>旭日层级图 sunburst：同时表达层级路径与占比，标签沿径向旋转</p></div>
+  <div id="chart"></div>
+  <div id="st" role="status">加载中...</div>
+</div>
+<script>
+(function boot() {
+  var st = document.getElementById("st") || document.getElementById("status");
+  function setStatus(text) { if (st) st.textContent = text || ""; }
+
+  if (typeof echarts === "undefined") {
+    setStatus("图表库加载中...");
+    return setTimeout(boot, 150);
+  }
+
+  var chart = echarts.init(document.getElementById("chart"));
+  try {
+      var C = { blue: "#2563eb", green: "#10b981", amber: "#f59e0b", red: "#ef4444", purple: "#8b5cf6", teal: "#14b8a6", slate: "#64748b" };
+
+      var data = [{
+        name: "总收入", value: 200,
+        itemStyle: { color: "#e5e7eb" },
+        children: [
+          { name: "API", value: 88, itemStyle: { color: "#bfdbfe" }, children: [
+            { name: "推理", value: 62, itemStyle: { color: "#60a5fa" } },
+            { name: "训练", value: 26, itemStyle: { color: "#93c5fd" } }
+          ] },
+          { name: "企业合同", value: 90, itemStyle: { color: "#99f6e4" }, children: [
+            { name: "推理", value: 48, itemStyle: { color: "#2dd4bf" } },
+            { name: "训练", value: 42, itemStyle: { color: "#5eead4" } }
+          ] },
+          { name: "云市场", value: 22, itemStyle: { color: "#fcd34d" } }
+        ]
+      }];
+      var option = {
+        animation: false,
+        tooltip: { trigger: "item", formatter: "{b}: {c} 百万元" },
+        series: [{
+          type: "sunburst", radius: [0, "88%"], center: ["50%", "52%"], data: data,
+          label: { rotate: "radial", color: "#1f2937", fontSize: 11, minAngle: 6 },
+          itemStyle: { borderColor: "#ffffff", borderWidth: 1.5 },
+          levels: [{}, { r0: "15%", r: "48%", label: { rotate: 0 } }, { r0: "48%", r: "78%" }]
+        }]
+      };
+    chart.setOption(option, true);
+    setStatus("");
+  } catch (err) {
+    setStatus("图表渲染失败: " + (err && err.message ? err.message : String(err)));
+    console.error(err);
+  }
+
+  window.addEventListener("resize", function () { chart.resize(); });
+})();
+</script>
+</body>
+</html>

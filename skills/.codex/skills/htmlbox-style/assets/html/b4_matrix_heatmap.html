@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>东区转化与留存双高，西区曝光强但转化偏弱</title>
+<script src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; background: #ffffff; color: #1f2937; }
+  #wrap { width: 100%; padding: 14px 18px 16px; }
+  .hd { padding: 2px 2px 10px; border-bottom: 1px solid #eef1f5; margin-bottom: 6px; }
+  .hd h1 { margin: 0; font-size: 17px; font-weight: 650; color: #111827; letter-spacing: .2px; }
+  .hd p { margin: 6px 0 0; font-size: 12.5px; color: #6b7280; line-height: 1.5; }
+  #chart { width: 100%; height: 380px; }
+  #st { min-height: 20px; font-size: 13px; color: #6b7280; text-align: center; padding: 6px 12px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="hd"><h1>东区转化与留存双高，西区曝光强但转化偏弱</h1><p>矩阵热力图：区域 × 指标交叉对比（0-100 标准化分），颜色刻度统一</p></div>
+  <div id="chart"></div>
+  <div id="st" role="status">加载中...</div>
+</div>
+<script>
+(function boot() {
+  var st = document.getElementById("st") || document.getElementById("status");
+  function setStatus(text) { if (st) st.textContent = text || ""; }
+
+  if (typeof echarts === "undefined") {
+    setStatus("图表库加载中...");
+    return setTimeout(boot, 150);
+  }
+
+  var chart = echarts.init(document.getElementById("chart"));
+  try {
+      var C = { blue: "#2563eb", green: "#10b981", amber: "#f59e0b", red: "#ef4444", purple: "#8b5cf6", teal: "#14b8a6", slate: "#64748b" };
+
+      var teams = ["北区", "东区", "南区", "西区"];
+      var metrics = ["曝光", "点击", "转化", "留存"];
+      var matrix = [
+        [0, 0, 82], [1, 0, 67], [2, 0, 55], [3, 0, 73],
+        [0, 1, 64], [1, 1, 88], [2, 1, 46], [3, 1, 69],
+        [0, 2, 41], [1, 2, 52], [2, 2, 38], [3, 2, 57],
+        [0, 3, 72], [1, 3, 91], [2, 3, 49], [3, 3, 66]
+      ];
+      var option = {
+        animation: false,
+        tooltip: { formatter: function (p) { return teams[p.data[0]] + " / " + metrics[p.data[1]] + ": " + p.data[2]; } },
+        grid: { left: 68, right: 26, top: 26, bottom: 66 },
+        xAxis: { type: "category", data: teams, axisLabel: { color: "#4b5563" }, splitArea: { show: true } },
+        yAxis: { type: "category", data: metrics, axisLabel: { color: "#4b5563" }, splitArea: { show: true } },
+        visualMap: { min: 0, max: 100, orient: "horizontal", left: "center", bottom: 8, itemWidth: 14, itemHeight: 90, text: ["100", "0"], textStyle: { color: "#6b7280" }, inRange: { color: ["#f0fdfa", "#99f6e4", "#5eead4", "#2dd4bf"] } },
+        series: [{ type: "heatmap", data: matrix, label: { show: true, fontSize: 11, color: "#0f172a" }, itemStyle: { borderColor: "#ffffff", borderWidth: 2 } }]
+      };
+    chart.setOption(option, true);
+    setStatus("");
+  } catch (err) {
+    setStatus("图表渲染失败: " + (err && err.message ? err.message : String(err)));
+    console.error(err);
+  }
+
+  window.addEventListener("resize", function () { chart.resize(); });
+})();
+</script>
+</body>
+</html>

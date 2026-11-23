@@ -1,0 +1,95 @@
+{
+  "skill": "doubao-eval",
+  "cases": [
+    {
+      "id": "explicit-name",
+      "kind": "positive",
+      "query": "请用 Doubao-Eval 评测这个 Base 创建结果，给四个维度和总分。",
+      "expected": "trigger"
+    },
+    {
+      "id": "weighted-create",
+      "kind": "positive",
+      "query": "按创建类 35/20/35/10 的口径评这条豆包产物，并列证据。",
+      "expected": "trigger"
+    },
+    {
+      "id": "indirect-three-types",
+      "kind": "positive",
+      "query": "把这些 case 分成创建、编辑、数据分析三类，再按适用维度重归一化算分。",
+      "expected": "trigger"
+    },
+    {
+      "id": "multi-turn",
+      "kind": "positive",
+      "query": "这是一个多轮豆包 Base case，请按最终产物做评测。",
+      "expected": "trigger"
+    },
+    {
+      "id": "create-base",
+      "kind": "negative",
+      "query": "帮我创建一个客户管理 Base，带仪表盘和工作流。",
+      "expected": "do_not_trigger"
+    },
+    {
+      "id": "fix-workflow",
+      "kind": "negative",
+      "query": "修复这个 Base 里无法启用的工作流。",
+      "expected": "do_not_trigger"
+    },
+    {
+      "id": "generic-building-eval",
+      "kind": "hard_negative",
+      "query": "评测 Building Agent 产物是否满足 Query，给整体 0/1 和 Spec 归因。",
+      "expected": "do_not_trigger",
+      "route_to": "building evaluation skill"
+    },
+    {
+      "id": "dashboard-bwe",
+      "kind": "hard_negative",
+      "query": "按 BWE-Direct 标准给这个仪表盘打分和错误标签。",
+      "expected": "do_not_trigger",
+      "route_to": "dashboard evaluation skill"
+    },
+    {
+      "id": "app-building-2",
+      "kind": "hard_negative",
+      "query": "按 App Building 评测标准 2.0 验收这个应用。",
+      "expected": "do_not_trigger",
+      "route_to": "app building evaluation skill"
+    },
+    {
+      "id": "generic-table-eval",
+      "kind": "hard_negative",
+      "query": "看看这张飞书多维表格是否满足需求，按普通二分结果输出。",
+      "expected": "do_not_trigger",
+      "route_to": "generic table evaluation skill"
+    },
+    {
+      "id": "generic-doubao-answer",
+      "kind": "hard_negative",
+      "query": "评测一下豆包对这道历史题的回答质量。",
+      "expected": "do_not_trigger"
+    },
+    {
+      "id": "two-standards",
+      "kind": "conflict",
+      "query": "同时按 Doubao Eval 和 BWE-Direct 评这个仪表盘。",
+      "expected": "trigger_with_companion",
+      "notes": "Produce two separately labeled evaluations; never mix weights, -1, or labels."
+    },
+    {
+      "id": "evaluate-then-fix",
+      "kind": "conflict",
+      "query": "先按豆包四维权重评测，再把发现的问题修好。",
+      "expected": "trigger_with_companion",
+      "notes": "Use doubao-eval for the read-only evaluation; use an implementation skill only for the separately authorized repair."
+    },
+    {
+      "id": "missing-task-type",
+      "kind": "positive_incomplete",
+      "query": "按豆包权重评一下这个结果，但我没说是创建还是编辑。",
+      "expected": "trigger_then_clarify_if_not_inferable"
+    }
+  ]
+}
