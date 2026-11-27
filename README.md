@@ -2,13 +2,13 @@
 
 This repository backs up local Agent Skills and their companion files by source path.
 
-- Total `SKILL.md` files: 398
-- Latest sync (2026-11-23): 272 added, 6 updated, 0 matched locally.
+- Total `SKILL.md` files: 399
+- Latest bulk sync (2026-11-23): 272 added, 6 updated, 0 matched locally.
 - Earlier backup entries retained outside the latest sync: 120
 - Source paths and SHA-256 hashes are recorded in `manifest.json`.
 - All backup files and SHA-256 hashes are recorded in `file_manifest.json`.
 
-The latest sync skipped the lark-cli suite, application plugin caches and vendor imports, transient project work directories, runtime data, and material containing private work references. Historical entries were retained.
+The latest bulk sync skipped the lark-cli suite, application plugin caches and vendor imports, transient project work directories, runtime data, and material containing private work references. Historical entries were retained.
 
 ## Source counts
 
@@ -37,7 +37,7 @@ The latest sync skipped the lark-cli suite, application plugin caches and vendor
 - `Desktop/temp`: 32
 - `Desktop/我的文档`: 3
 - `Documents/ChatGPT`: 1
-- `Documents/Codex`: 6
+- `Documents/Codex`: 7
 - `Documents/Playground`: 1
 - `Documents/Playwright_TEST`: 1
 - `Documents/base_agent`: 6

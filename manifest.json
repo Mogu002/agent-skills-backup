@@ -2316,6 +2316,12 @@
     "sha256": "611ec4359d3656695d426d984b6d02ab78501eb9057cd646f0eccead1d695ec3"
   },
   {
+    "source": "~/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/SKILL.md",
+    "backup_path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/SKILL.md",
+    "bytes": 14085,
+    "sha256": "ed8e0d8a160d3895e252d9a541e16d86ac40036cb6ee2f766668eea76fa4b8fb"
+  },
+  {
     "source": "/Users/gaojing/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
     "backup_path": "skills/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
     "bytes": 2518,

@@ -17675,6 +17675,231 @@
     "sha256": "b3eea94dd7d0c6474634de22ac3ccae317f42ba1ba2389d93535ee8dae7d94e1"
   },
   {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/.gitignore",
+    "bytes": 39,
+    "sha256": "a7a6f5f892ec39791a870ec1561714a4f3b399ec118f55f51d3227861d0dc544"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/CHANGELOG.md",
+    "bytes": 16312,
+    "sha256": "4fd97e34bd3cf4e93d494fc9d25286abeb09cfd3a25e90c12a0ddf9d6f08910b"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/LICENSE",
+    "bytes": 1065,
+    "sha256": "01e0241322fa5e00720986e4a8ef6e4fe7495e2f9241144da97de694f0f2ae5c"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/README.md",
+    "bytes": 8963,
+    "sha256": "e33f671ef86a5cf6d003b757fb231926e12b18179b56770079df5860e30567d0"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/SKILL.md",
+    "bytes": 14085,
+    "sha256": "ed8e0d8a160d3895e252d9a541e16d86ac40036cb6ee2f766668eea76fa4b8fb"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/assets/daily-loop-narrow.png",
+    "bytes": 53528,
+    "sha256": "e35dc5e6da60f6870d462be0eb915c96dac85ed7122e6ac4347fc6cc3698971e"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/assets/daily-loop.png",
+    "bytes": 140495,
+    "sha256": "ed5cc0deb7b07fe5735d1edc0bbfdc1bc7713d38763b0ca88475a61ec9652079"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/assets/daily-loop.svg",
+    "bytes": 6316,
+    "sha256": "aa36fffc12eea08fed4e38da24d31549b6fff34f04ca8c6b68fd79c9dcec02ac"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/archive/README.md",
+    "bytes": 643,
+    "sha256": "68ff8b10d45bfc800e30f671fdb3d81fa1908b2abc546d34131eac5ebaf28157"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/cases50.json",
+    "bytes": 76618,
+    "sha256": "ade6de5bdd2be797d4e78e95fe2f2a11fe4d0542f220dac67bf9594f6244a34c"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/clean_seed.json",
+    "bytes": 2098,
+    "sha256": "4b982cf4a9156441d098e320e73e9dec1c2448ed90cc911da1285588e7a55aaa"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/labels.json",
+    "bytes": 9017,
+    "sha256": "ee64aaf2c2340f31de71f9042f56f9744346876d824ee7abb1759c4adb45ea63"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/manual_edits.json",
+    "bytes": 35567,
+    "sha256": "6018d210532e91c1df9a20079553cb3b1e8bafcf77f7566b9926e803ea4b51fe"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/precedents.json",
+    "bytes": 137681,
+    "sha256": "a40ecaf7ec0087ccecf6391a8cce645ef45464ef9d0411331f40f19c25c596e4"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/data/regression_seed.json",
+    "bytes": 23809,
+    "sha256": "98a8a982eae4732160d6c0920b529789de84abfa6d3de908ff4626d53899d5d9"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/badcase-taxonomy.md",
+    "bytes": 14351,
+    "sha256": "be520be4ac8e3c83208707107b72192d98e2f5102018b1d35b69eee3c97726cb"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/daily-loop.md",
+    "bytes": 20983,
+    "sha256": "c0c7dcc34bac3e568724e597f1d72411f714a66fa8e78eba06144d5cf534a475"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/disputes.md",
+    "bytes": 3900,
+    "sha256": "ad432aa3a73003dd86af7b5510b42a5550a63384fbdeb4483cedf215c138145c"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/fix-proposal.md",
+    "bytes": 3662,
+    "sha256": "10506dc4ded69689a7e34efd03e658d2352fea6a2bd52f984aded870e437def7"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/gates-and-release.md",
+    "bytes": 7779,
+    "sha256": "30819f4ce0be29a8362517276cb06062966f4d557e39c4485ec38d7fbb71f8f9"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/item-sources.md",
+    "bytes": 9300,
+    "sha256": "4e8b3148900536cfaddf18660b8368f18999ac20c5267b3dd80ab1e2d9e1e24e"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/references/judge-protocol.md",
+    "bytes": 14981,
+    "sha256": "8318c562c7c290223ff1eff74085141aecc11211eb31d9a59fb6eca5adc8f71a"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/requirements-optional.txt",
+    "bytes": 480,
+    "sha256": "0abc367851768a1b58752796240c7bbc3d5b40e48332f111f48e7176b0b6965e"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/build_labels.py",
+    "bytes": 4634,
+    "sha256": "d062f516f02b2df4f124f21506a5a5715ef798af6ce133164a832697585c03c2"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/build_seed.py",
+    "bytes": 4388,
+    "sha256": "823d5ede4640c22d633aa74a315138dac6c400674dffd2a9ab2909a2719a1628"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/fit_weights.py",
+    "bytes": 8593,
+    "sha256": "9333959160e0128e51b0574b919a79d102151152217aef2898a7c87b729e7224"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/__init__.py",
+    "bytes": 919,
+    "sha256": "df10214178b4d62bd4ce6d37b7a0ab76e91c0480936d6ee676872ad9441788db"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/cli.py",
+    "bytes": 8004,
+    "sha256": "5097c409110d7e36a12fcbeb53475638804ac1a10a548dbbf43d98bace277ec9"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/const.py",
+    "bytes": 7372,
+    "sha256": "5e492468d8885987aec776db44249377151696a6e70652cd36b9c5dc2614c6bf"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/docdoc.py",
+    "bytes": 16167,
+    "sha256": "fdd4c2f137c8b3297698debfc4220415604e1002f0bfd6d4805bfac21fe04d30"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/fp.py",
+    "bytes": 3064,
+    "sha256": "249632a1d61ef048d52b46adc3b1f8f02c39b79b210ee4b7e85ac987c13f4834"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/fs.py",
+    "bytes": 7898,
+    "sha256": "8d184db71c1f36bfada3deafc67fc087c6d9f69d85e94e85942c98c9bf5a153d"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/gates.py",
+    "bytes": 32373,
+    "sha256": "cc4ac04cca9b8b3864ab77ddb26e8b5ec327f3fa1b50bd9268e73903e8f1ba9b"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/judge.py",
+    "bytes": 12260,
+    "sha256": "4f2f6311ddc9be65a23000c277856d81523e6ddc21b8387e65010b4518aa06a0"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/manualdiff.py",
+    "bytes": 3763,
+    "sha256": "ba1b3e3b60c34b4628e422c3a11144b57685aedc7eb4832ca8130e390d6bf152"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/pipeline.py",
+    "bytes": 66558,
+    "sha256": "a4ea3cd2a2918aa9a288522fae2dd99ca9b2d20fca1b250db5777df5ec7761b1"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/preflight.py",
+    "bytes": 5391,
+    "sha256": "a2a76177c449d7d9171e1d8b8f2f32ac9a85d1a0b8454b02d8a8d3a62317c221"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/rules.py",
+    "bytes": 3938,
+    "sha256": "fb5be8eb997a2304713a604e75be023f27718b54b108794cd4ce7a084554dea9"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/seed.py",
+    "bytes": 8882,
+    "sha256": "0f38799e0b23246ff41d15922f92dfac641b1644fcbca986f8d825cc22074545"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/hh_eval/statedoc.py",
+    "bytes": 11824,
+    "sha256": "50ff4db8e228fbdae8c1694bebdf61315c73a710c34f0d72f43efff268ca25f1"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/label_agreement.py",
+    "bytes": 6820,
+    "sha256": "b3c8fc61618c9106521421340eb85ee63443036fbdfd6779ce0ff8f4e330db49"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/loop.py",
+    "bytes": 1146,
+    "sha256": "9e441fb56b45b0976afcfa060dbeae9bcd5de8c356d844371c555586cbee8ad7"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/scorer.py",
+    "bytes": 22866,
+    "sha256": "a345d9210c886ce997d1c9fbcc33bdb950e56c9a7b9e0e9af88b10a51a498e22"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/test_adversarial.py",
+    "bytes": 17445,
+    "sha256": "a9898d738590280b9833cf977fabce9877c7bd4d7208a79f4e2c00451df0485e"
+  },
+  {
+    "path": "skills/Documents/Codex/2026-11-24/pi/.pi/skills/haohao-eval/scripts/test_loop.py",
+    "bytes": 60555,
+    "sha256": "c4095dc5a1fb181575381b789c786d2fa5db2bb6d7f85fd52c9ba22ba7779ca0"
+  },
+  {
     "path": "skills/Documents/Playground/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md",
     "bytes": 2518,
     "sha256": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7"
